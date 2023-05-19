@@ -341,6 +341,10 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -374,6 +378,10 @@ textarea {
 /* =============
     Info
 ============= */
+#info h1 {
+  font-weight: 600;
+}
+
 /* =============
     Hero 1
 ============= */
