@@ -3,7 +3,75 @@
 ============= */
 
 footer{
-    ul{
-        list-style: none;
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". content .";
+    background-color: var(--black);
+
+    @include md{
+        grid-template-columns: 48px auto 48px;
+    }
+
+    @include lg{
+        grid-template-columns: 64px auto 64px;
+    }
+
+    #footer-content{
+        grid-area: content;
+        color: var(--white);
+        padding: 48px 0px 208px;
+
+        @include lg{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #footer-nav{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-bottom: 64px;
+            gap: 48px;
+
+            @include md{
+                flex-direction: row;
+                gap: 9%;
+            }
+            @include lg{
+                gap: 96px;
+            }
+
+            .nav-sections{
+                h2{
+                    font-weight: 600;
+                    padding-bottom: 20px;
+                    font-size: rem-calc(24);
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+
+                    a:link, a:visited{
+                        text-decoration: none;
+                        color: var(--white);
+                        font-weight: 300;
+                        font-size: rem-calc(20);
+                    }
+                }
+            }
+        }
+
+        #socials{
+            display: flex;
+            gap: 16px;
+
+            @include lg{
+                flex-direction: column;
+            }
+            li{
+                font-size: rem-calc(28);
+            }
+        }
     }
 }
