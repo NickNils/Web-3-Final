@@ -338,9 +338,18 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: var(--white);
+}
+
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, h5, p {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -372,15 +381,58 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+  border-bottom: 2px solid var(--blue2);
+}
+@media (min-width: 768px) {
+  header {
+    grid-template-columns: 48px auto 48px;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    grid-template-columns: 64px auto 64px;
+  }
+}
+header #content {
+  grid-area: content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0px;
+  color: var(--blue2);
+}
+header #content h1 {
+  font-family: "Fugaz One", cursive;
+}
+header #content aside button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.25rem;
+  color: var(--blue2);
+}
+
 /* =============
     Footer
 ============= */
+footer ul {
+  list-style: none;
+}
+
 /* =============
     Info
 ============= */
 /* =============
     Hero 1
 ============= */
+#hero-1 img {
+  width: 50%;
+}
+
 /* =============
     Attachments
 ============= */
@@ -390,3 +442,6 @@ textarea {
 /* =============
     Hero 2
 ============= */
+#hero-2 img {
+  width: 100%;
+}

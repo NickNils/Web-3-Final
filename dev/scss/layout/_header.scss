@@ -1,3 +1,39 @@
 /* =============
     Header
 ============= */
+header{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". content .";
+    border-bottom: 2px solid var(--blue2);
+
+    @include md{
+        grid-template-columns: 48px auto 48px;
+    }
+    @include lg{
+        grid-template-columns: 64px auto 64px;
+    }
+
+    #content{
+        grid-area: content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px 0px;
+        color: var(--blue2);
+
+        h1{
+            font-family: 'Fugaz One', cursive;
+        }
+
+        aside{
+            button{
+                background-color: transparent;
+                border: none;
+                font-size: rem-calc(20);
+                color: var(--blue2);
+            }
+        }
+    }
+}
