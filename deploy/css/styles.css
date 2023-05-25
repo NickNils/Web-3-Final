@@ -504,13 +504,26 @@ footer #footer-content #socials li {
 /* =============
     Hero 1
 ============= */
-#hero-1 div {
+#hero-1 {
   display: grid;
   grid-template-columns: 30px auto 30px;
   grid-template-areas: ". content .";
 }
-#hero-1 div section {
+#hero-1 div {
   grid-area: content;
+}
+@media (min-width: 1024px) {
+  #hero-1 div {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "image text";
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  #hero-1 div section {
+    grid-area: text;
+  }
 }
 #hero-1 div section h1 {
   text-align: center;
@@ -526,6 +539,11 @@ footer #footer-content #socials li {
 }
 #hero-1 img {
   width: 100%;
+}
+@media (min-width: 1024px) {
+  #hero-1 img {
+    grid-area: image;
+  }
 }
 
 /* =============

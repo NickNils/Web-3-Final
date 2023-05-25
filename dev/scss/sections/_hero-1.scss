@@ -2,13 +2,21 @@
     Hero 1
 ============= */
 #hero-1{
-
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+    grid-template-areas: ". content .";
      div{
-        display: grid;
-        grid-template-columns: 30px auto 30px;
-        grid-template-areas: ". content .";
+        grid-area: content;
+        @include lg{
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: "image text";
+            align-items: center;
+        }
         section{
-            grid-area: content;
+            @include lg{
+                grid-area: text;
+            }
             h1{
                 text-align: center;
                 font-size: rem-calc(28);
@@ -24,6 +32,9 @@
         }
      }
      img{
+        @include lg{
+            grid-area: image;
+        }
         width: 100%;
      }
 }
