@@ -5,36 +5,55 @@
     display: grid;
     grid-template-columns: 30px auto 30px;
     grid-template-areas: ". content .";
-     div{
+     #content{
         grid-area: content;
+        display: grid;
+        justify-items: center;
         @include lg{
-            display: grid;
+            justify-items: left;
             grid-template-columns: 50% auto;
             grid-template-areas: "image text";
             align-items: center;
+            gap: 24px;
         }
         section{
+            display: flex;
+            flex-direction: column;
+            @include md{
+                width: 600px;
+            }
             @include lg{
                 grid-area: text;
+                width: 424px;
             }
             h1{
                 text-align: center;
                 font-size: rem-calc(28);
                 color: var(--brown3);
                 padding-bottom: 16px;
+                
+                @include lg{
+                    text-align: left;
+                }
             }
             p{
                 text-align: center;
                 font-size: rem-calc(16);
                 font-weight: 400;
                 line-height: 24px;
+
+
+                @include lg{
+                    text-align: left;
+                }
             }
         }
+        img{
+            @include lg{
+                grid-area: image;
+            }
+            width: 100%;
+         }
      }
-     img{
-        @include lg{
-            grid-area: image;
-        }
-        width: 100%;
-     }
+
 }
