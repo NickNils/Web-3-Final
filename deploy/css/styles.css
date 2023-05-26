@@ -506,8 +506,6 @@ footer #footer-content #socials li {
 ============= */
 #hero-1 {
   display: grid;
-  grid-template-columns: 30px auto 30px;
-  grid-template-areas: ". content .";
 }
 #hero-1 #content {
   grid-area: content;
@@ -519,13 +517,13 @@ footer #footer-content #socials li {
     justify-items: left;
     grid-template-columns: 50% auto;
     grid-template-areas: "image text";
-    align-items: center;
     gap: 24px;
   }
 }
 #hero-1 #content section {
   display: flex;
   flex-direction: column;
+  padding: 0px 30px;
 }
 @media (min-width: 768px) {
   #hero-1 #content section {
