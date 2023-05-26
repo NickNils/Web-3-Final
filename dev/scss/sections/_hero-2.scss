@@ -2,7 +2,46 @@
     Hero 2
 ============= */
 #hero-2{
-    img{
-        width: 100%;
+    .catchphrase{
+        color: var(--brown3);
+        text-align: center;
+        font-size: rem-calc(28);
+        padding: 48px 0px 24px;
+
+
+        @include md{
+            font-size: rem-calc(36);
+            text-align: right;
+        }
+    }
+    div{
+        #mobile{
+            background-image: url("../img/hero/hero-2-mobile.png");
+            background-size: cover;
+            background-position: bottom;
+            height: 752px;
+            width: 100%;
+
+            @include md{
+                display: none;
+            }
+
+        }
+        #desktop{
+            display: none;
+            background-image: url("../img/hero/hero-2.png");
+            background-size: cover;
+            background-position: top;
+            height: 752px;
+            width: 88%;
+
+            @include md{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: center;
+                padding-right: 12%;
+            }
+        }
     }
 }

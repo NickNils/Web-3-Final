@@ -65,17 +65,17 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/Assets\/hero-2-mobile.jpg" : {
-      "ft" : 16384,
-      "iS" : 87079,
-      "jF" : 0,
+    "\/Assets\/hero-2-mobile.png" : {
+      "ft" : 32768,
+      "iS" : 54816,
       "oA" : 0,
-      "oAP" : "\/Assets\/hero-2-mobile.jpg",
+      "oAP" : "\/Assets\/hero-2-mobile.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 90,
       "rq" : 75
     },
     "\/Assets\/hero-2.png" : {
@@ -159,17 +159,17 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/hero-2-mobile.jpg" : {
-      "ft" : 16384,
-      "iS" : 87079,
-      "jF" : 0,
+    "\/deploy\/img\/hero\/hero-2-mobile.png" : {
+      "ft" : 32768,
+      "iS" : 54816,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero-2-mobile.jpg",
+      "oAP" : "\/deploy\/img\/hero\/hero-2-mobile.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 90,
       "rq" : 75
     },
     "\/deploy\/img\/hero\/hero-2.png" : {

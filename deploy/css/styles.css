@@ -347,6 +347,21 @@ ul {
   padding: 0px;
 }
 
+a.buy-now:link, a.buy-now:visited {
+  text-decoration: none;
+  padding: 10px 32px;
+  color: var(--blue2);
+  border: 2px solid var(--blue2);
+  border-radius: 8px;
+  background-color: var(--white);
+  box-shadow: -2px 2px 4px var(--grey1);
+}
+
+a.buy-now:hover a.buy-now:active {
+  background-color: var(--blue2);
+  color: var(--white);
+}
+
 /* =============
     Typography
 ============= */
@@ -581,6 +596,44 @@ footer #footer-content #socials li {
 /* =============
     Hero 2
 ============= */
-#hero-2 img {
+#hero-2 .catchphrase {
+  color: var(--brown3);
+  text-align: center;
+  font-size: 1.75rem;
+  padding: 48px 0px 24px;
+}
+@media (min-width: 768px) {
+  #hero-2 .catchphrase {
+    font-size: 2.25rem;
+    text-align: right;
+  }
+}
+#hero-2 div #mobile {
+  background-image: url("../img/hero/hero-2-mobile.png");
+  background-size: cover;
+  background-position: bottom;
+  height: 752px;
   width: 100%;
+}
+@media (min-width: 768px) {
+  #hero-2 div #mobile {
+    display: none;
+  }
+}
+#hero-2 div #desktop {
+  display: none;
+  background-image: url("../img/hero/hero-2.png");
+  background-size: cover;
+  background-position: top;
+  height: 752px;
+  width: 88%;
+}
+@media (min-width: 768px) {
+  #hero-2 div #desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 12%;
+  }
 }
