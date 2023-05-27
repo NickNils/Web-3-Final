@@ -537,7 +537,7 @@ footer #footer-content #socials li {
     align-items: center;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   #hero-1 #content {
     grid-template-columns: 40% auto;
   }
@@ -604,12 +604,35 @@ footer #footer-content #socials li {
   border-top: 1px solid var(--brown3);
   border-bottom: 1px solid var(--brown3);
 }
+@media (min-width: 1024px) {
+  #reviews {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 64px;
+    margin: 0px 64px;
+    border-top: none;
+    border-bottom: none;
+    border: 1px solid var(--brown3);
+    border-radius: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  #reviews {
+    margin: 0px 15%;
+  }
+}
 #reviews .stars {
   display: flex;
   flex-direction: row;
   gap: 4px;
   padding: 0px;
   margin: 0px;
+}
+#reviews aside {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 #reviews aside #label {
   color: var(--black);
@@ -626,12 +649,23 @@ footer #footer-content #socials li {
 }
 #reviews aside #ratio {
   display: flex;
+  margin: 0px;
   flex-direction: column;
   gap: 16px;
   padding: 16px;
   border: 1px solid var(--brown2);
   border-radius: 8px;
   background-color: var(--white);
+}
+@media (min-width: 576px) {
+  #reviews aside #ratio {
+    width: 342px;
+  }
+}
+@media (min-width: 1024px) {
+  #reviews aside #ratio {
+    width: 264px;
+  }
 }
 #reviews aside #ratio li {
   display: grid;
@@ -676,6 +710,11 @@ footer #footer-content #socials li {
 }
 #reviews section {
   padding-top: 16px;
+}
+@media (min-width: 1024px) {
+  #reviews section {
+    padding-top: 0px;
+  }
 }
 #reviews section #c1 {
   padding-bottom: 32px;
