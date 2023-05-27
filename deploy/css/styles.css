@@ -632,19 +632,19 @@ footer #footer-content #socials li {
 #reviews aside {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
 }
 #reviews aside #label {
   color: var(--black);
   font-size: 2rem;
   font-weight: 600;
 }
-#reviews aside #fraction {
+#reviews aside #rating #fraction {
   font-size: 6rem;
   font-weight: 600;
   color: var(--black);
 }
-#reviews aside #fraction span {
+#reviews aside #rating #fraction span {
   color: var(--blue1);
 }
 #reviews aside #ratio {

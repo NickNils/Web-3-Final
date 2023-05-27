@@ -32,18 +32,21 @@
     aside{
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 24px;
+
         #label{
             color: var(--black);
             font-size: rem-calc(32);
             font-weight: 600;
         }
-        #fraction{
-            font-size: rem-calc(96);
-            font-weight: 600;
-            color: var(--black);
-            span{
-                color: var(--blue1);
+        #rating{
+            #fraction{
+                font-size: rem-calc(96);
+                font-weight: 600;
+                color: var(--black);
+                span{
+                    color: var(--blue1);
+                }
             }
         }
         #ratio{
