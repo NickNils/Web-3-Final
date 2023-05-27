@@ -16,6 +16,9 @@
     }
     div{
         #mobile{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             background-image: url("../img/hero/hero-2-mobile.png");
             background-size: cover;
             background-position: bottom;

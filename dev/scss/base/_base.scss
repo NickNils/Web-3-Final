@@ -12,6 +12,7 @@ ul{
 }
 
 a.buy-now:link, a.buy-now:visited{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 10px 32px;
     color: var(--blue2);
@@ -19,6 +20,8 @@ a.buy-now:link, a.buy-now:visited{
     border-radius: 8px;
     background-color: var(--white);
     box-shadow: -2px 2px 4px var(--grey1);
+    text-align: center;
+    transform: 100ms;
 }
 
 a.buy-now:hover a.buy-now:active{
