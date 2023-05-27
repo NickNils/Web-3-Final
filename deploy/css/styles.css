@@ -608,6 +608,8 @@ footer #footer-content #socials li {
   display: flex;
   flex-direction: row;
   gap: 4px;
+  padding: 0px;
+  margin: 0px;
 }
 #reviews aside #label {
   color: var(--black);
@@ -671,6 +673,56 @@ footer #footer-content #socials li {
 }
 #reviews aside #ratio li #s1 {
   width: 10%;
+}
+#reviews section {
+  padding-top: 16px;
+}
+#reviews section #c1 {
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--grey1);
+}
+#reviews section #c2 {
+  padding-top: 32px;
+}
+#reviews section .card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#reviews section .card .top-row {
+  display: flex;
+  gap: 24px;
+}
+#reviews section .card .top-row h1 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--black);
+}
+#reviews section .card .top-row h4 {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--grey1);
+}
+#reviews section .card .top-row .icons {
+  display: flex;
+  gap: 8px;
+  font-size: 0.875rem;
+  color: var(--blue1);
+}
+#reviews section .card p {
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+#reviews section .card a:link, #reviews section .card a:visited {
+  text-decoration: none;
+  color: var(--grey1);
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+#reviews section .card a:link:hover, #reviews section .card a:visited:hover {
+  color: var(--grey2);
 }
 
 /* =============
