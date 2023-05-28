@@ -519,6 +519,13 @@ footer #footer-content #socials li {
 /* =============
     Info
 ============= */
+@media (min-width: 1440px) {
+  #info {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+  }
+}
 #info .product-label h1 {
   font-family: "Fugaz One", cursive;
   font-weight: 400;
@@ -534,11 +541,41 @@ footer #footer-content #socials li {
   color: var(--grey1);
   font-size: 0.75rem;
 }
+#info aside #ml {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+@media (min-width: 1024px) {
+  #info aside #ml {
+    display: none;
+  }
+}
+#info aside ul .show-at-large {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #info aside ul .show-at-large {
+    display: list-item;
+  }
+}
+@media (min-width: 1024px) {
+  #info aside ul {
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-areas: "i1 i2" "i3 i4";
+  }
+}
 #info aside ul li #i1 {
   background-image: url("../img/info/info-1.jpg");
   height: 390px;
   width: 390px;
   background-size: cover;
+}
+@media (min-width: 1024px) {
+  #info aside ul li #i1 {
+    grid-area: i1;
+  }
 }
 #info aside ul li #i2 {
   background-image: url("../img/info/info-2.jpeg");
@@ -546,11 +583,21 @@ footer #footer-content #socials li {
   width: 390px;
   background-size: cover;
 }
+@media (min-width: 1024px) {
+  #info aside ul li #i2 {
+    grid-area: i2;
+  }
+}
 #info aside ul li #i3 {
   background-image: url("../img/info/info-3.jpeg");
   height: 390px;
   width: 390px;
   background-size: cover;
+}
+@media (min-width: 1024px) {
+  #info aside ul li #i3 {
+    grid-area: i3;
+  }
 }
 #info aside ul li #i4 {
   background-image: url("../img/info/info-4.jpeg");
@@ -558,34 +605,101 @@ footer #footer-content #socials li {
   width: 390px;
   background-size: cover;
 }
-#info section p {
+@media (min-width: 1024px) {
+  #info aside ul li #i4 {
+    grid-area: i;
+  }
+}
+#info #content {
+  margin: 0px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #info #content {
+    margin: 0px 48px;
+  }
+}
+@media (min-width: 1024px) {
+  #info #content {
+    align-items: flex-start;
+  }
+}
+#info #content #dl {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #info #content #dl {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+#info #content p {
   font-size: 1rem;
   line-height: 24px;
   font-weight: 400;
   color: var(--black);
 }
-#info section form h2 {
+@media (min-width: 768px) {
+  #info #content p {
+    width: 664px;
+  }
+}
+@media (min-width: 1024px) {
+  #info #content p {
+    width: 416px;
+  }
+}
+#info #content form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#info #content form h2 {
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--black);
 }
-#info section form input[type=radio] {
+#info #content form input[type=radio] {
   display: none;
 }
-#info section form label div section h1 {
+#info #content form label {
+  border: 1px solid var(--grey1);
+  border-radius: 8px;
+  padding: 16px;
+  width: 342px;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  #info #content form label {
+    width: 664px;
+  }
+}
+@media (min-width: 1024px) {
+  #info #content form label {
+    width: 415px;
+  }
+}
+#info #content form label div section h1 {
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--black);
 }
-#info section form label div section p {
+#info #content form label div section p {
   font-size: 0.75rem;
   font-weight: 400;
   color: var(--grey2);
 }
-#info section form label div h2 {
+#info #content form label div h2 {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--blue1);
+}
+#info #content form input[type=radio]:checked + label {
+  border: 3px solid var(--blue1);
 }
 
 /* =============
