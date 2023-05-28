@@ -519,6 +519,75 @@ footer #footer-content #socials li {
 /* =============
     Info
 ============= */
+#info .product-label h1 {
+  font-family: "Fugaz One", cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--black);
+}
+#info .product-label h4 {
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--black);
+}
+#info .product-label h4 span {
+  color: var(--grey1);
+  font-size: 0.75rem;
+}
+#info aside ul li #i1 {
+  background-image: url("../img/info/info-1.jpg");
+  height: 390px;
+  width: 390px;
+  background-size: cover;
+}
+#info aside ul li #i2 {
+  background-image: url("../img/info/info-2.jpeg");
+  height: 390px;
+  width: 390px;
+  background-size: cover;
+}
+#info aside ul li #i3 {
+  background-image: url("../img/info/info-3.jpeg");
+  height: 390px;
+  width: 390px;
+  background-size: cover;
+}
+#info aside ul li #i4 {
+  background-image: url("../img/info/info-4.jpeg");
+  height: 390px;
+  width: 390px;
+  background-size: cover;
+}
+#info section p {
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--black);
+}
+#info section form h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--black);
+}
+#info section form input[type=radio] {
+  display: none;
+}
+#info section form label div section h1 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--black);
+}
+#info section form label div section p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--grey2);
+}
+#info section form label div h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--blue1);
+}
+
 /* =============
     Hero 1
 ============= */
