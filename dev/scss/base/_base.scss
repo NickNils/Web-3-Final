@@ -21,10 +21,14 @@ a.buy-now:link, a.buy-now:visited{
     background-color: var(--white);
     box-shadow: -2px 2px 4px var(--grey1);
     text-align: center;
-    transform: 100ms;
+    transition: 100ms;
 }
 
-a.buy-now:hover a.buy-now:active{
+a.buy-now:hover, a.buy-now:active{
     background-color: var(--blue2);
     color: var(--white);
+}
+
+a:enabled{
+    box-shadow: none;
 }
