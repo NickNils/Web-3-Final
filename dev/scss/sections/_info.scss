@@ -40,6 +40,7 @@
             grid-template-columns: 50% auto;
             grid-template-areas: "image text";
             gap: 64px;
+
         }
         aside{
             @include lg{

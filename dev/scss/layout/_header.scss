@@ -16,24 +16,45 @@ header{
 
     #header-content{
         grid-area: content;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-areas: 
+        "logo burger"
+        "nav nav";
+        // position: fixed;
+        width: 100%;
+        box-sizing: border-box;
+
+        // display: flex;
+        // flex-direction: row;
+        // align-items: center;
+        // justify-content: space-between;
         padding: 24px 0px;
         color: var(--blue2);
 
         h1{
+            grid-area: logo;
             font-family: 'Fugaz One', cursive;
         }
 
-        aside{
-            button{
-                background-color: transparent;
-                border: none;
-                font-size: rem-calc(20);
-                color: var(--blue2);
-            }
+        button{
+            background-color: transparent;
+            border: none;
+            font-size: rem-calc(20);
+            color: var(--blue2);
+        }
+
+        #cart-burger{
+            grid-area: burger;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 16px;
+        }
+        
+        nav{
+            grid-area: nav;
         }
     }
 }

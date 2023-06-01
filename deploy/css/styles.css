@@ -345,6 +345,7 @@ body {
 ul {
   list-style-type: none;
   padding: 0px;
+  margin: 0px;
 }
 
 a.buy-now:link, a.buy-now:visited {
@@ -405,6 +406,46 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  display: none;
+}
+@media (min-width: 1024px) {
+  nav {
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+  }
+}
+nav ul li {
+  text-align: right;
+}
+nav ul li a:link, nav ul li a:visited {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--blue2);
+  padding: 16px 0 16px;
+  font-weight: 600;
+}
+@media (min-width: 1024px) {
+  nav ul li a:link, nav ul li a:visited {
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: 0.25s;
+  }
+}
+@media (min-width: 1024px) {
+  nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
+    border-bottom: 2px solid;
+    border-radius: 0%;
+  }
+}
+
 /* =============
     Header
 ============= */
@@ -426,21 +467,34 @@ header {
 }
 header #header-content {
   grid-area: content;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "logo burger" "nav nav";
+  width: 100%;
+  box-sizing: border-box;
   padding: 24px 0px;
   color: var(--blue2);
 }
 header #header-content h1 {
+  grid-area: logo;
   font-family: "Fugaz One", cursive;
 }
-header #header-content aside button {
+header #header-content button {
   background-color: transparent;
   border: none;
   font-size: 1.25rem;
   color: var(--blue2);
+}
+header #header-content #cart-burger {
+  grid-area: burger;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+header #header-content nav {
+  grid-area: nav;
 }
 
 /* =============
@@ -950,7 +1004,7 @@ footer #footer-content #socials li {
 }
 @media (min-width: 1440px) {
   #reviews {
-    margin: 0px 15%;
+    margin: 0px 12% 64px;
   }
 }
 #reviews .stars {

@@ -1,3 +1,46 @@
 /* =============
     Navigation
 ============= */
+
+
+nav{
+    display: none;
+
+    @include lg{
+        display: block;
+    }
+    ul{
+
+        @include lg{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 8px
+        }
+
+        li{
+            text-align: right;
+
+            a:link, a:visited{
+                text-decoration: none;
+                display: inline-block;
+                color: var(--blue2);
+                padding: 16px 0 16px;
+                font-weight: 600;
+
+                @include lg{
+                    padding: 10px 16px;
+                    border-radius: 6px;
+                    transition: 0.25s;
+                }
+
+                &:hover, &:active{
+                    @include lg{
+                        border-bottom: 2px solid;
+                        border-radius: 0%;
+                    }
+                }
+            }
+        }
+    }
+}
