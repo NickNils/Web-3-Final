@@ -3,7 +3,14 @@
 ============= */
 
 #info{
+    margin: 32px 0px 32px;
+
+    @include md{
+        margin: 48px 0px 48px;
+    }
+
     @include lg{
+        margin: 64px 0px 64px;
         display: grid;
         grid-template-columns: 64px auto 64px;
         grid-template-areas: ". info .";

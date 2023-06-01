@@ -3,6 +3,8 @@
 ============= */
 
 #attachments{
+    padding: 24px 0px 48px;
+    margin-bottom: 32px;
     background-color: var(--yellow4);
     display: grid;
     grid-template-columns: 24px auto 24px;
@@ -10,10 +12,12 @@
 
     @include md{
         grid-template-columns: 48px auto 48px;
+        margin-bottom: 48px;
     }
 
     @include lg{
         grid-template-columns: 64px auto 64px;
+        margin-bottom: 64px;
     }
 
     #content{
