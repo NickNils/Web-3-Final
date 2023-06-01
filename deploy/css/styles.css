@@ -827,6 +827,11 @@ footer #footer-content #socials li {
 #attachments {
   background-color: var(--yellow4);
 }
+#attachments #content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* =============
     Reviews
