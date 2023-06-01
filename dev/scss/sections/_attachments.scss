@@ -9,5 +9,46 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        ul{
+            #a1 a:link, #a1 a:visited{
+                display: grid;
+                grid-template-rows: 53% auto;
+                grid-template-areas: 
+                                "icon"
+                                "label";
+                .icon{
+                    grid-area: icon;
+                }   
+                .label{
+                    grid-area: label;
+                }             
+            }
+            #a2 a:link, #a2 a:visited{
+                display: grid;
+                grid-template-rows: 62% auto;
+                grid-template-areas: 
+                                "icon"
+                                "label";
+                .icon{
+                    grid-area: icon;
+                }   
+                .label{
+                    grid-area: label;
+                }             
+            }
+            #a3 a:link, #a3 a:visited{
+                display: grid;
+                grid-template-rows: 52% auto;
+                grid-template-areas: 
+                                "icon"
+                                "label";
+                .icon{
+                    grid-area: icon;
+                }   
+                .label{
+                    grid-area: label;
+                }             
+            }
+        }
     }
 }

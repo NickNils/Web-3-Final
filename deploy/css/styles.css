@@ -832,6 +832,39 @@ footer #footer-content #socials li {
   flex-direction: column;
   align-items: center;
 }
+#attachments #content ul #a1 a:link, #attachments #content ul #a1 a:visited {
+  display: grid;
+  grid-template-rows: 53% auto;
+  grid-template-areas: "icon" "label";
+}
+#attachments #content ul #a1 a:link .icon, #attachments #content ul #a1 a:visited .icon {
+  grid-area: icon;
+}
+#attachments #content ul #a1 a:link .label, #attachments #content ul #a1 a:visited .label {
+  grid-area: label;
+}
+#attachments #content ul #a2 a:link, #attachments #content ul #a2 a:visited {
+  display: grid;
+  grid-template-rows: 62% auto;
+  grid-template-areas: "icon" "label";
+}
+#attachments #content ul #a2 a:link .icon, #attachments #content ul #a2 a:visited .icon {
+  grid-area: icon;
+}
+#attachments #content ul #a2 a:link .label, #attachments #content ul #a2 a:visited .label {
+  grid-area: label;
+}
+#attachments #content ul #a3 a:link, #attachments #content ul #a3 a:visited {
+  display: grid;
+  grid-template-rows: 52% auto;
+  grid-template-areas: "icon" "label";
+}
+#attachments #content ul #a3 a:link .icon, #attachments #content ul #a3 a:visited .icon {
+  grid-area: icon;
+}
+#attachments #content ul #a3 a:link .label, #attachments #content ul #a3 a:visited .label {
+  grid-area: label;
+}
 
 /* =============
     Reviews
