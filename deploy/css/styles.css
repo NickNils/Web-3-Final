@@ -555,6 +555,9 @@ footer #footer-content #socials li {
     display: none;
   }
 }
+#info #info-content aside ul {
+  display: grid;
+}
 #info #info-content aside ul .show-at-large {
   display: none;
 }
@@ -565,7 +568,6 @@ footer #footer-content #socials li {
 }
 @media (min-width: 1024px) {
   #info #info-content aside ul {
-    display: grid;
     grid-template-columns: 350px 350px;
     grid-template-areas: "i1 i2" "i3 i4";
   }
@@ -573,7 +575,7 @@ footer #footer-content #socials li {
 #info #info-content aside ul li #i1 {
   background-image: url("../img/info/info-1.jpg");
   height: 390px;
-  width: 390px;
+  width: 100%;
   background-size: cover;
 }
 @media (min-width: 1024px) {
@@ -584,7 +586,7 @@ footer #footer-content #socials li {
 #info #info-content aside ul li #i2 {
   background-image: url("../img/info/info-2.jpeg");
   height: 390px;
-  width: 390px;
+  width: 100%;
   background-size: cover;
 }
 @media (min-width: 1024px) {
@@ -595,7 +597,7 @@ footer #footer-content #socials li {
 #info #info-content aside ul li #i3 {
   background-image: url("../img/info/info-3.jpeg");
   height: 390px;
-  width: 390px;
+  width: 100%;
   background-size: cover;
 }
 @media (min-width: 1024px) {
@@ -606,7 +608,7 @@ footer #footer-content #socials li {
 #info #info-content aside ul li #i4 {
   background-image: url("../img/info/info-4.jpeg");
   height: 390px;
-  width: 390px;
+  width: 100%;
   background-size: cover;
 }
 @media (min-width: 1024px) {
@@ -615,66 +617,66 @@ footer #footer-content #socials li {
   }
 }
 #info #info-content #content {
-  margin: 0px 24px;
+  display: grid;
+  grid-template-columns: 24px auto 24px;
+  grid-template-areas: ". content .";
+}
+#info #info-content #content > div {
+  grid-area: content;
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
-@media (min-width: 768px) {
-  #info #info-content #content {
-    margin: 0px 48px;
-  }
-}
-#info #info-content #content #dl {
+#info #info-content #content > div #dl {
   display: none;
 }
 @media (min-width: 1024px) {
-  #info #info-content #content #dl {
+  #info #info-content #content > div #dl {
     display: flex;
     flex-direction: column;
     gap: 4px;
   }
 }
-#info #info-content #content p {
+#info #info-content #content > div p {
   font-size: 1rem;
   line-height: 24px;
   font-weight: 400;
   color: var(--black);
 }
-#info #info-content #content form {
+#info #info-content #content > div form {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-#info #info-content #content form h2 {
+#info #info-content #content > div form h2 {
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--black);
 }
-#info #info-content #content form input[type=radio] {
+#info #info-content #content > div form input[type=radio] {
   display: none;
 }
-#info #info-content #content form label {
+#info #info-content #content > div form label {
   border: 1px solid var(--grey1);
   border-radius: 8px;
   padding: 16px;
 }
-#info #info-content #content form label div section h1 {
+#info #info-content #content > div form label div section h1 {
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--black);
 }
-#info #info-content #content form label div section p {
+#info #info-content #content > div form label div section p {
   font-size: 0.75rem;
   font-weight: 400;
   color: var(--grey2);
 }
-#info #info-content #content form label div h2 {
+#info #info-content #content > div form label div h2 {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--blue1);
 }
-#info #info-content #content form input[type=radio]:checked + label {
+#info #info-content #content > div form input[type=radio]:checked + label {
   border: 3px solid var(--blue1);
 }
 
