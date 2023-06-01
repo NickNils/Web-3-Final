@@ -826,16 +826,48 @@ footer #footer-content #socials li {
 ============= */
 #attachments {
   background-color: var(--yellow4);
+  display: grid;
+  grid-template-columns: 24px auto 24px;
+  grid-template-areas: ". content .";
+}
+@media (min-width: 768px) {
+  #attachments {
+    grid-template-columns: 48px auto 48px;
+  }
+}
+@media (min-width: 1024px) {
+  #attachments {
+    grid-template-columns: 64px auto 64px;
+  }
 }
 #attachments #content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  grid-area: content;
+}
+#attachments #content h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--brown3);
+}
+#attachments #content ul {
+  display: grid;
+  justify-content: center;
+}
+@media (min-width: 1024px) {
+  #attachments #content ul {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "a1 a1 a2 a2" ".. a3 a3 ..";
+  }
 }
 #attachments #content ul #a1 a:link, #attachments #content ul #a1 a:visited {
   display: grid;
   grid-template-rows: 53% auto;
   grid-template-areas: "icon" "label";
+}
+@media (min-width: 1024px) {
+  #attachments #content ul #a1 a:link, #attachments #content ul #a1 a:visited {
+    grid-area: a1;
+  }
 }
 #attachments #content ul #a1 a:link .icon, #attachments #content ul #a1 a:visited .icon {
   grid-area: icon;
@@ -848,6 +880,11 @@ footer #footer-content #socials li {
   grid-template-rows: 62% auto;
   grid-template-areas: "icon" "label";
 }
+@media (min-width: 1024px) {
+  #attachments #content ul #a2 a:link, #attachments #content ul #a2 a:visited {
+    grid-area: a2;
+  }
+}
 #attachments #content ul #a2 a:link .icon, #attachments #content ul #a2 a:visited .icon {
   grid-area: icon;
 }
@@ -858,6 +895,11 @@ footer #footer-content #socials li {
   display: grid;
   grid-template-rows: 52% auto;
   grid-template-areas: "icon" "label";
+}
+@media (min-width: 1024px) {
+  #attachments #content ul #a3 a:link, #attachments #content ul #a3 a:visited {
+    grid-area: a3;
+  }
 }
 #attachments #content ul #a3 a:link .icon, #attachments #content ul #a3 a:visited .icon {
   grid-area: icon;
