@@ -824,6 +824,10 @@ footer #footer-content #socials li {
 /* =============
     Attachments
 ============= */
+#attachments {
+  background-color: var(--yellow4);
+}
+
 /* =============
     Reviews
 ============= */
