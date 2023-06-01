@@ -523,11 +523,11 @@ footer #footer-content #socials li {
 /* =============
     Info
 ============= */
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   #info {
-    display: flex;
-    flex-direction: row;
-    gap: 64px;
+    display: grid;
+    grid-template-columns: 64px auto 64px;
+    grid-template-areas: ". info .";
   }
 }
 #info .product-label h1 {
@@ -545,10 +545,30 @@ footer #footer-content #socials li {
   color: var(--grey1);
   font-size: 0.75rem;
 }
+@media (min-width: 1024px) {
+  #info #info-content {
+    grid-area: info;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "image text";
+    gap: 64px;
+  }
+}
+@media (min-width: 1024px) {
+  #info #info-content aside {
+    grid-area: image;
+  }
+}
 #info #info-content aside #ml {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  padding: 0px 24px;
+}
+@media (min-width: 768px) {
+  #info #info-content aside #ml {
+    padding: 0px 48px;
+  }
 }
 @media (min-width: 1024px) {
   #info #info-content aside #ml {
@@ -557,6 +577,16 @@ footer #footer-content #socials li {
 }
 #info #info-content aside ul {
   display: grid;
+}
+@media (min-width: 768px) {
+  #info #info-content aside ul {
+    padding: 0px 48px;
+  }
+}
+@media (min-width: 1024px) {
+  #info #info-content aside ul {
+    padding: 0px;
+  }
 }
 #info #info-content aside ul .show-at-large {
   display: none;
@@ -568,58 +598,85 @@ footer #footer-content #socials li {
 }
 @media (min-width: 1024px) {
   #info #info-content aside ul {
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 250px 250px;
     grid-template-areas: "i1 i2" "i3 i4";
+  }
+}
+@media (min-width: 1024px) and (min-width: 1200px) {
+  #info #info-content aside ul {
+    grid-template-rows: 290px 290px;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1440px) {
+  #info #info-content aside ul {
+    grid-template-rows: 390px 390px;
   }
 }
 #info #info-content aside ul li #i1 {
   background-image: url("../img/info/info-1.jpg");
-  height: 390px;
+  height: 100%;
   width: 100%;
   background-size: cover;
 }
 @media (min-width: 1024px) {
   #info #info-content aside ul li #i1 {
     grid-area: i1;
+    border-radius: 24px 0px 0px;
   }
 }
 #info #info-content aside ul li #i2 {
-  background-image: url("../img/info/info-2.jpeg");
-  height: 390px;
+  background-image: url("../img/info/info-2.jpg");
+  height: 100%;
   width: 100%;
   background-size: cover;
 }
 @media (min-width: 1024px) {
   #info #info-content aside ul li #i2 {
     grid-area: i2;
+    border-radius: 0px 24px 0px 0px;
   }
 }
 #info #info-content aside ul li #i3 {
-  background-image: url("../img/info/info-3.jpeg");
-  height: 390px;
+  background-image: url("../img/info/info-3.jpg");
+  height: 100%;
   width: 100%;
   background-size: cover;
 }
 @media (min-width: 1024px) {
   #info #info-content aside ul li #i3 {
     grid-area: i3;
+    border-radius: 0px 0px 0px 24px;
   }
 }
 #info #info-content aside ul li #i4 {
-  background-image: url("../img/info/info-4.jpeg");
+  background-image: url("../img/info/info-4.jpg");
   height: 390px;
   width: 100%;
   background-size: cover;
 }
 @media (min-width: 1024px) {
   #info #info-content aside ul li #i4 {
-    grid-area: i;
+    height: 100%;
+    grid-area: i4;
+    border-radius: 0px 0px 24px 0px;
   }
 }
 #info #info-content #content {
   display: grid;
   grid-template-columns: 24px auto 24px;
   grid-template-areas: ". content .";
+}
+@media (min-width: 768px) {
+  #info #info-content #content {
+    grid-template-columns: 48px auto 48px;
+  }
+}
+@media (min-width: 1024px) {
+  #info #info-content #content {
+    grid-area: text;
+    grid-template-columns: 0px auto 0px;
+  }
 }
 #info #info-content #content > div {
   grid-area: content;
@@ -678,6 +735,16 @@ footer #footer-content #socials li {
 }
 #info #info-content #content > div form input[type=radio]:checked + label {
   border: 3px solid var(--blue1);
+}
+@media (min-width: 768px) {
+  #info #info-content #content > div a {
+    align-self: center;
+  }
+}
+@media (min-width: 1024px) {
+  #info #info-content #content > div a {
+    align-self: flex-start;
+  }
 }
 
 /* =============
