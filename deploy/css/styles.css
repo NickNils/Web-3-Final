@@ -419,7 +419,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 8px;
+    gap: 4px;
   }
 }
 nav ul li {
@@ -454,6 +454,7 @@ header {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". content .";
   border-bottom: 2px solid var(--blue2);
+  height: 86.8px;
 }
 @media (min-width: 768px) {
   header {
@@ -475,6 +476,12 @@ header #header-content {
   padding: 24px 0px;
   color: var(--blue2);
 }
+@media (min-width: 1024px) {
+  header #header-content {
+    grid-template-columns: 10% auto;
+    grid-template-areas: "logo nav";
+  }
+}
 header #header-content h1 {
   grid-area: logo;
   font-family: "Fugaz One", cursive;
@@ -492,6 +499,11 @@ header #header-content #cart-burger {
   align-items: center;
   justify-content: flex-end;
   gap: 16px;
+}
+@media (min-width: 1024px) {
+  header #header-content #cart-burger {
+    display: none;
+  }
 }
 header #header-content nav {
   grid-area: nav;
