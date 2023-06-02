@@ -1978,78 +1978,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/attachments.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/attachments.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/hero-1.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/hero-1.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/hero-2.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/hero-2.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/info.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/info.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/reviews.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/reviews.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/footer.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/footer.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/head.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/head.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/header.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/header.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/scripts.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/scripts.html",
-      "oF" : 0
-    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2058,7 +1986,79 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
-    "\/dev\/js\/scripts.js" : {
+    "\/dev\/product\/content\/attachments.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/product\/content\/attachments.html",
+      "oF" : 0
+    },
+    "\/dev\/product\/content\/hero-1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/product\/content\/hero-1.html",
+      "oF" : 0
+    },
+    "\/dev\/product\/content\/hero-2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/product\/content\/hero-2.html",
+      "oF" : 0
+    },
+    "\/dev\/product\/content\/info.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/product\/content\/info.html",
+      "oF" : 0
+    },
+    "\/dev\/product\/content\/reviews.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/product\/content\/reviews.html",
+      "oF" : 0
+    },
+    "\/dev\/product\/global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/product\/global\/footer.html",
+      "oF" : 0
+    },
+    "\/dev\/product\/global\/head.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/product\/global\/head.html",
+      "oF" : 0
+    },
+    "\/dev\/product\/global\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/product\/global\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/product\/global\/scripts.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/product\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev\/product\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
@@ -2069,7 +2069,7 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/scss\/base\/_base.scss" : {
+    "\/dev\/product\/scss\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2078,13 +2078,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_base.css",
+      "oAP" : "\/dev\/product\/scss\/base\/_base.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/base\/_normalize.scss" : {
+    "\/dev\/product\/scss\/base\/_normalize.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2093,13 +2093,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_normalize.css",
+      "oAP" : "\/dev\/product\/scss\/base\/_normalize.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/base\/_typography.scss" : {
+    "\/dev\/product\/scss\/base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2108,13 +2108,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_typography.css",
+      "oAP" : "\/dev\/product\/scss\/base\/_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_buttons.scss" : {
+    "\/dev\/product\/scss\/components\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2123,13 +2123,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_buttons.css",
+      "oAP" : "\/dev\/product\/scss\/components\/_buttons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_forms.scss" : {
+    "\/dev\/product\/scss\/components\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2138,13 +2138,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_forms.css",
+      "oAP" : "\/dev\/product\/scss\/components\/_forms.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_navigation.scss" : {
+    "\/dev\/product\/scss\/components\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2153,13 +2153,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_navigation.css",
+      "oAP" : "\/dev\/product\/scss\/components\/_navigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/helpers\/_mixins.scss" : {
+    "\/dev\/product\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2168,13 +2168,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/helpers\/_mixins.css",
+      "oAP" : "\/dev\/product\/scss\/helpers\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/helpers\/_variables.scss" : {
+    "\/dev\/product\/scss\/helpers\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2183,13 +2183,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/helpers\/_variables.css",
+      "oAP" : "\/dev\/product\/scss\/helpers\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/_footer.scss" : {
+    "\/dev\/product\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2198,13 +2198,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/_footer.css",
+      "oAP" : "\/dev\/product\/scss\/layout\/_footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/_header.scss" : {
+    "\/dev\/product\/scss\/layout\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2213,13 +2213,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oAP" : "\/dev\/product\/scss\/layout\/_header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_attachments.scss" : {
+    "\/dev\/product\/scss\/sections\/_attachments.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2228,13 +2228,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_attachments.css",
+      "oAP" : "\/dev\/product\/scss\/sections\/_attachments.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_hero-1.scss" : {
+    "\/dev\/product\/scss\/sections\/_hero-1.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2243,13 +2243,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero-1.css",
+      "oAP" : "\/dev\/product\/scss\/sections\/_hero-1.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_hero-2.scss" : {
+    "\/dev\/product\/scss\/sections\/_hero-2.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2258,13 +2258,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero-2.css",
+      "oAP" : "\/dev\/product\/scss\/sections\/_hero-2.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_info.scss" : {
+    "\/dev\/product\/scss\/sections\/_info.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2273,13 +2273,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_info.css",
+      "oAP" : "\/dev\/product\/scss\/sections\/_info.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_reviews.scss" : {
+    "\/dev\/product\/scss\/sections\/_reviews.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2288,13 +2288,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_reviews.css",
+      "oAP" : "\/dev\/product\/scss\/sections\/_reviews.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/styles.scss" : {
+    "\/dev\/product\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2319,7 +2319,7 @@
   "projectAttributes" : {
     "creationDate" : 706152613.62229204,
     "displayValue" : "Web-3-Final",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-payne",
     "iconImageWasSetByUser" : 0
   },
