@@ -6,11 +6,15 @@ header{
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". content .";
     border-bottom: 2px solid var(--blue2);
-    height: 86.8px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--white);
     @include md{
         grid-template-columns: 48px auto 48px;
     }
     @include lg{
+        height: 86.8px;
         grid-template-columns: 64px auto 64px;
     }
 
@@ -21,9 +25,6 @@ header{
         grid-template-areas: 
         "logo burger"
         "nav nav";
-        // position: fixed;
-        width: 100%;
-        box-sizing: border-box;
         padding: 24px 0px;
         color: var(--blue2);
 
@@ -58,6 +59,14 @@ header{
         
         nav{
             grid-area: nav;
+            ul{
+                #cart-desktop{
+                    display: none;
+                    @include lg{
+                        display: list-item;
+                    }
+                }
+            }
         }
     }
 }
