@@ -2,6 +2,7 @@
     Attachments
 ============= */
 
+
 #attachments{
     scroll-margin-top: 80px;
 
@@ -20,11 +21,13 @@
     @include lg{
         grid-template-columns: 64px auto 64px;
         margin-bottom: 64px;
+
     }
 
     #content{
         justify-content: center;
         grid-area: content;
+        border: 1px solid red;
 
         h1{
             font-size: rem-calc(32);
@@ -35,73 +38,195 @@
             display: grid;
             justify-content: center;
 
-
-            @include lg{
-                grid-template-columns: repeat(4, 1fr);
+            @include md{
+                grid-template-columns: repeat(3, 1fr);
                 grid-template-areas: 
-                                "a1 a1 a2 a2"
-                                ".. a3 a3 ..";
+                                "a1 a2 a3";
             }
 
-            #a1 a:link, #a1 a:visited{
-                display: grid;
-                grid-template-rows: 53% auto;
-                grid-template-areas: 
-                                "icon"
-                                "label";
-
-                @include lg{
-                    grid-area: a1;
-                //     grid-template-columns: 100% auto;
-                //     grid-template-rows: none;
-                //     grid-template-areas: "label icon";
+            li{
+                img{
+                    width: 100%;
                 }
-                .icon{
-                    grid-area: icon;
-                }   
-                .label{
-                    grid-area: label;
 
-                    // @include lg{
-                    //     transform: rotate(90deg);
-                    // }
-                }             
+                a:link, a:visited{
+                    border: 2px solid black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+                    transition: 0.25s;
+
+                    .label{
+                        @include  lg{
+                            transition: 0.25s;
+                            opacity: 0;
+                        }
+                        position: absolute;
+                        width: 85%;
+                        left: 5%;
+                    }
+
+                    .icon{
+                        @include lg{
+                            transition: 0.25s;
+                            width: 85%;
+                        }
+                        position: relative;
+                        z-index: 10;
+                    }
+
+                    &:hover, &:active{
+                        .label{
+                            @include lg{
+                                opacity: 1;
+                            }
+                        }
+                        .icon{
+                            width: 100%;
+                        }
+                    }
+                }
             }
-            #a2 a:link, #a2 a:visited{
-                display: grid;
-                grid-template-rows: 62% auto;
-                grid-template-areas: 
-                                "icon"
-                                "label";
 
-                @include lg{
+            #a1{
+                @include md{
+                    grid-area: a1;
+                }
+
+                .label{
+                    top:62%;
+                    z-index: 5;
+                 }
+            }
+
+            #a2{
+                @include md{
                     grid-area: a2;
                 }
-                .icon{
-                    grid-area: icon;
-                }   
-                .label{
-                    grid-area: label;
-                }             
-            }
-            #a3 a:link, #a3 a:visited{
-                display: grid;
-                grid-template-rows: 52% auto;
-                grid-template-areas: 
-                                "icon"
-                                "label";
 
-                @include lg{
+                .label{
+                    top:62%;
+                    z-index: 5;
+                 }
+            }
+
+            #a3{
+                @include md{
                     grid-area: a3;
                 }
 
-                .icon{
-                    grid-area: icon;
-                }   
                 .label{
-                    grid-area: label;
-                }             
+                   top:57%;
+                   z-index: 5;
+                }
             }
         }
     }
 }
+
+// #attachments{
+//     scroll-margin-top: 80px;
+
+//     padding: 24px 0px 48px;
+//     margin-bottom: 32px;
+//     background-color: var(--yellow4);
+//     display: grid;
+//     grid-template-columns: 24px auto 24px;
+//     grid-template-areas: ". content .";
+
+//     @include md{
+//         grid-template-columns: 48px auto 48px;
+//         margin-bottom: 48px;
+//     }
+
+//     @include lg{
+//         grid-template-columns: 64px auto 64px;
+//         margin-bottom: 64px;
+//     }
+
+//     #content{
+//         justify-content: center;
+//         grid-area: content;
+
+//         h1{
+//             font-size: rem-calc(32);
+//             font-weight: 600;
+//             color: var(--brown3);
+//         }
+//         ul{
+//             display: grid;
+//             justify-content: center;
+
+
+//             @include lg{
+//                 grid-template-columns: repeat(4, 1fr);
+//                 grid-template-areas: 
+//                                 "a1 a1 a2 a2"
+//                                 ".. a3 a3 ..";
+//             }
+
+//             #a1 a:link, #a1 a:visited{
+//                 display: grid;
+//                 grid-template-rows: 53% auto;
+//                 grid-template-areas: 
+//                                 "icon"
+//                                 "label";
+
+//                 @include lg{
+//                     grid-area: a1;
+//                 //     grid-template-columns: 100% auto;
+//                 //     grid-template-rows: none;
+//                 //     grid-template-areas: "label icon";
+//                 }
+//                 .icon{
+//                     grid-area: icon;
+//                 }   
+//                 .label{
+//                     grid-area: label;
+
+//                     // @include lg{
+//                     //     transform: rotate(90deg);
+//                     // }
+//                 }             
+//             }
+//             #a2 a:link, #a2 a:visited{
+//                 display: grid;
+//                 grid-template-rows: 62% auto;
+//                 grid-template-areas: 
+//                                 "icon"
+//                                 "label";
+
+//                 @include lg{
+//                     grid-area: a2;
+//                 }
+//                 .icon{
+//                     grid-area: icon;
+//                 }   
+//                 .label{
+//                     grid-area: label;
+//                 }             
+//             }
+//             #a3 a:link, #a3 a:visited{
+//                 display: grid;
+//                 grid-template-rows: 52% auto;
+//                 grid-template-areas: 
+//                                 "icon"
+//                                 "label";
+
+//                 @include lg{
+//                     grid-area: a3;
+//                 }
+
+//                 .icon{
+//                     grid-area: icon;
+//                 }   
+//                 .label{
+//                     grid-area: label;
+//                 }             
+//             }
+//         }
+//     }
+// }

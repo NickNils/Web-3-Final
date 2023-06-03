@@ -340,6 +340,7 @@ template {
 ============= */
 body {
   background-color: var(--white);
+  position: relative;
 }
 
 ul {
@@ -463,6 +464,7 @@ header {
   grid-template-areas: ". content .";
   border-bottom: 2px solid var(--blue2);
   position: fixed;
+  z-index: 20;
   width: 100%;
   box-sizing: border-box;
   background-color: var(--white);
@@ -942,6 +944,7 @@ footer #footer-content #socials li {
 #attachments #content {
   justify-content: center;
   grid-area: content;
+  border: 1px solid red;
 }
 #attachments #content h1 {
   font-size: 2rem;
@@ -952,59 +955,80 @@ footer #footer-content #socials li {
   display: grid;
   justify-content: center;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   #attachments #content ul {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "a1 a1 a2 a2" ".. a3 a3 ..";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "a1 a2 a3";
   }
 }
-#attachments #content ul #a1 a:link, #attachments #content ul #a1 a:visited {
-  display: grid;
-  grid-template-rows: 53% auto;
-  grid-template-areas: "icon" "label";
+#attachments #content ul li img {
+  width: 100%;
+}
+#attachments #content ul li a:link, #attachments #content ul li a:visited {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: 0.25s;
+}
+#attachments #content ul li a:link .label, #attachments #content ul li a:visited .label {
+  position: absolute;
+  width: 85%;
+  left: 5%;
 }
 @media (min-width: 1024px) {
-  #attachments #content ul #a1 a:link, #attachments #content ul #a1 a:visited {
+  #attachments #content ul li a:link .label, #attachments #content ul li a:visited .label {
+    transition: 0.25s;
+    opacity: 0;
+  }
+}
+#attachments #content ul li a:link .icon, #attachments #content ul li a:visited .icon {
+  position: relative;
+  z-index: 10;
+}
+@media (min-width: 1024px) {
+  #attachments #content ul li a:link .icon, #attachments #content ul li a:visited .icon {
+    transition: 0.25s;
+    width: 85%;
+  }
+}
+@media (min-width: 1024px) {
+  #attachments #content ul li a:link:hover .label, #attachments #content ul li a:link:active .label, #attachments #content ul li a:visited:hover .label, #attachments #content ul li a:visited:active .label {
+    opacity: 1;
+  }
+}
+#attachments #content ul li a:link:hover .icon, #attachments #content ul li a:link:active .icon, #attachments #content ul li a:visited:hover .icon, #attachments #content ul li a:visited:active .icon {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #attachments #content ul #a1 {
     grid-area: a1;
   }
 }
-#attachments #content ul #a1 a:link .icon, #attachments #content ul #a1 a:visited .icon {
-  grid-area: icon;
+#attachments #content ul #a1 .label {
+  top: 62%;
+  z-index: 5;
 }
-#attachments #content ul #a1 a:link .label, #attachments #content ul #a1 a:visited .label {
-  grid-area: label;
-}
-#attachments #content ul #a2 a:link, #attachments #content ul #a2 a:visited {
-  display: grid;
-  grid-template-rows: 62% auto;
-  grid-template-areas: "icon" "label";
-}
-@media (min-width: 1024px) {
-  #attachments #content ul #a2 a:link, #attachments #content ul #a2 a:visited {
+@media (min-width: 768px) {
+  #attachments #content ul #a2 {
     grid-area: a2;
   }
 }
-#attachments #content ul #a2 a:link .icon, #attachments #content ul #a2 a:visited .icon {
-  grid-area: icon;
+#attachments #content ul #a2 .label {
+  top: 62%;
+  z-index: 5;
 }
-#attachments #content ul #a2 a:link .label, #attachments #content ul #a2 a:visited .label {
-  grid-area: label;
-}
-#attachments #content ul #a3 a:link, #attachments #content ul #a3 a:visited {
-  display: grid;
-  grid-template-rows: 52% auto;
-  grid-template-areas: "icon" "label";
-}
-@media (min-width: 1024px) {
-  #attachments #content ul #a3 a:link, #attachments #content ul #a3 a:visited {
+@media (min-width: 768px) {
+  #attachments #content ul #a3 {
     grid-area: a3;
   }
 }
-#attachments #content ul #a3 a:link .icon, #attachments #content ul #a3 a:visited .icon {
-  grid-area: icon;
-}
-#attachments #content ul #a3 a:link .label, #attachments #content ul #a3 a:visited .label {
-  grid-area: label;
+#attachments #content ul #a3 .label {
+  top: 57%;
+  z-index: 5;
 }
 
 /* =============

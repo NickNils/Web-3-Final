@@ -9,6 +9,16 @@
   ],
   "creatorBuild" : "34484",
   "files" : {
+    "\/Assets\/airwave-sideways.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/airwave-sideways.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/Assets\/attach-1.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -59,11 +69,31 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/Assets\/concentrator-sideways.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/concentrator-sideways.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/Assets\/CreditCard.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/Assets\/CreditCard.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/difuser-sideways.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/difuser-sideways.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -1735,6 +1765,26 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/attachments\/airwave-sideways.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/attachments\/airwave-sideways.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/attachments\/airwave.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/attachments\/airwave.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/attachments\/attach-1.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1765,31 +1815,41 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/attachments\/name-1.svg" : {
+    "\/deploy\/img\/attachments\/concentrator-sideways.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/attachments\/name-1.svg",
+      "oAP" : "\/deploy\/img\/attachments\/concentrator-sideways.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/attachments\/name-2.svg" : {
+    "\/deploy\/img\/attachments\/concentrator.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/attachments\/name-2.svg",
+      "oAP" : "\/deploy\/img\/attachments\/concentrator.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/attachments\/name-3.svg" : {
+    "\/deploy\/img\/attachments\/difuser-sideways.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/attachments\/name-3.svg",
+      "oAP" : "\/deploy\/img\/attachments\/difuser-sideways.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/attachments\/difuser.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/attachments\/difuser.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
