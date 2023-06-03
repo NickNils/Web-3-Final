@@ -15,12 +15,12 @@
 @import "components/_navigation";
 
 // Layout Styles
-@import "layout/_header";
-@import "layout/_footer";
+@import "layout/product/_header";
+@import "layout/product/_footer";
 
 // Sections Styles
-@import "sections/_info";
-@import "sections/_hero-1";
-@import "sections/_attachments";
-@import "sections/_reviews";
-@import "sections/_hero-2";
+@import "sections/product/_info";
+@import "sections/product/_hero-1";
+@import "sections/product/_attachments";
+@import "sections/product/_reviews";
+@import "sections/product/_hero-2";

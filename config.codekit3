@@ -1765,101 +1765,101 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/attachments\/airwave-sideways.svg" : {
+    "\/deploy\/img\/product\/attachments\/airwave-sideways.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/attachments\/airwave-sideways.svg",
+      "oAP" : "\/deploy\/img\/product\/attachments\/airwave-sideways.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/attachments\/airwave.svg" : {
+    "\/deploy\/img\/product\/attachments\/airwave.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/attachments\/airwave.svg",
+      "oAP" : "\/deploy\/img\/product\/attachments\/airwave.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/attachments\/attach-1.svg" : {
+    "\/deploy\/img\/product\/attachments\/attach-1.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/attachments\/attach-1.svg",
+      "oAP" : "\/deploy\/img\/product\/attachments\/attach-1.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/attachments\/attach-2.svg" : {
+    "\/deploy\/img\/product\/attachments\/attach-2.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/attachments\/attach-2.svg",
+      "oAP" : "\/deploy\/img\/product\/attachments\/attach-2.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/attachments\/attach-3.svg" : {
+    "\/deploy\/img\/product\/attachments\/attach-3.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/attachments\/attach-3.svg",
+      "oAP" : "\/deploy\/img\/product\/attachments\/attach-3.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/attachments\/concentrator-sideways.svg" : {
+    "\/deploy\/img\/product\/attachments\/concentrator-sideways.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/attachments\/concentrator-sideways.svg",
+      "oAP" : "\/deploy\/img\/product\/attachments\/concentrator-sideways.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/attachments\/concentrator.svg" : {
+    "\/deploy\/img\/product\/attachments\/concentrator.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/attachments\/concentrator.svg",
+      "oAP" : "\/deploy\/img\/product\/attachments\/concentrator.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/attachments\/difuser-sideways.svg" : {
+    "\/deploy\/img\/product\/attachments\/difuser-sideways.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/attachments\/difuser-sideways.svg",
+      "oAP" : "\/deploy\/img\/product\/attachments\/difuser-sideways.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/attachments\/difuser.svg" : {
+    "\/deploy\/img\/product\/attachments\/difuser.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/attachments\/difuser.svg",
+      "oAP" : "\/deploy\/img\/product\/attachments\/difuser.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero\/hero-1-mobile.png" : {
+    "\/deploy\/img\/product\/hero\/hero-1-mobile.png" : {
       "ft" : 32768,
       "iS" : 352028,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero-1-mobile.png",
+      "oAP" : "\/deploy\/img\/product\/hero\/hero-1-mobile.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1868,11 +1868,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/hero-1.png" : {
+    "\/deploy\/img\/product\/hero\/hero-1.png" : {
       "ft" : 32768,
       "iS" : 447908,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero-1.png",
+      "oAP" : "\/deploy\/img\/product\/hero\/hero-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1881,11 +1881,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/hero-2-mobile.png" : {
+    "\/deploy\/img\/product\/hero\/hero-2-mobile.png" : {
       "ft" : 32768,
       "iS" : 54816,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero-2-mobile.png",
+      "oAP" : "\/deploy\/img\/product\/hero\/hero-2-mobile.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1894,11 +1894,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/hero-2.png" : {
+    "\/deploy\/img\/product\/hero\/hero-2.png" : {
       "ft" : 32768,
       "iS" : 207976,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero-2.png",
+      "oAP" : "\/deploy\/img\/product\/hero\/hero-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1907,72 +1907,72 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/icons\/Cart.svg" : {
+    "\/deploy\/img\/product\/icons\/Cart.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/Cart.svg",
+      "oAP" : "\/deploy\/img\/product\/icons\/Cart.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/icons\/Check.svg" : {
+    "\/deploy\/img\/product\/icons\/Check.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/Check.svg",
+      "oAP" : "\/deploy\/img\/product\/icons\/Check.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/icons\/CreditCard.svg" : {
+    "\/deploy\/img\/product\/icons\/CreditCard.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/CreditCard.svg",
+      "oAP" : "\/deploy\/img\/product\/icons\/CreditCard.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/icons\/Like.svg" : {
+    "\/deploy\/img\/product\/icons\/Like.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/Like.svg",
+      "oAP" : "\/deploy\/img\/product\/icons\/Like.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/icons\/Person.svg" : {
+    "\/deploy\/img\/product\/icons\/Person.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/Person.svg",
+      "oAP" : "\/deploy\/img\/product\/icons\/Person.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/icons\/Search.svg" : {
+    "\/deploy\/img\/product\/icons\/Search.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/Search.svg",
+      "oAP" : "\/deploy\/img\/product\/icons\/Search.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/info\/info-1.jpg" : {
+    "\/deploy\/img\/product\/info\/info-1.jpg" : {
       "ft" : 16384,
       "iS" : 64367,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/info\/info-1.jpg",
+      "oAP" : "\/deploy\/img\/product\/info\/info-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1980,12 +1980,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/info\/info-2.jpg" : {
+    "\/deploy\/img\/product\/info\/info-2.jpg" : {
       "ft" : 16384,
       "iS" : 11535,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/info\/info-2.jpg",
+      "oAP" : "\/deploy\/img\/product\/info\/info-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1993,12 +1993,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/info\/info-3.jpg" : {
+    "\/deploy\/img\/product\/info\/info-3.jpg" : {
       "ft" : 16384,
       "iS" : 9202,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/info\/info-3.jpg",
+      "oAP" : "\/deploy\/img\/product\/info\/info-3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2006,12 +2006,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/info\/info-4.jpg" : {
+    "\/deploy\/img\/product\/info\/info-4.jpg" : {
       "ft" : 16384,
       "iS" : 24741,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/info\/info-4.jpg",
+      "oAP" : "\/deploy\/img\/product\/info\/info-4.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2038,6 +2038,78 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/content\/product\/attachments.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/attachments.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/hero-1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/hero-1.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/hero-2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/hero-2.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/info.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/info.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/reviews.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/reviews.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/head.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/head.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/product\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/product\/footer.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/product\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/product\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/scripts.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/scripts.html",
+      "oF" : 0
+    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2046,79 +2118,7 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
-    "\/dev\/product\/content\/attachments.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/product\/content\/attachments.html",
-      "oF" : 0
-    },
-    "\/dev\/product\/content\/hero-1.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/product\/content\/hero-1.html",
-      "oF" : 0
-    },
-    "\/dev\/product\/content\/hero-2.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/product\/content\/hero-2.html",
-      "oF" : 0
-    },
-    "\/dev\/product\/content\/info.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/product\/content\/info.html",
-      "oF" : 0
-    },
-    "\/dev\/product\/content\/reviews.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/product\/content\/reviews.html",
-      "oF" : 0
-    },
-    "\/dev\/product\/global\/footer.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/product\/global\/footer.html",
-      "oF" : 0
-    },
-    "\/dev\/product\/global\/head.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/product\/global\/head.html",
-      "oF" : 0
-    },
-    "\/dev\/product\/global\/header.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/product\/global\/header.html",
-      "oF" : 0
-    },
-    "\/dev\/product\/global\/scripts.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/product\/global\/scripts.html",
-      "oF" : 0
-    },
-    "\/dev\/product\/js\/scripts.js" : {
+    "\/dev\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
@@ -2129,7 +2129,7 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/product\/scss\/base\/_base.scss" : {
+    "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2138,13 +2138,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/base\/_base.css",
+      "oAP" : "\/dev\/scss\/base\/_base.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/base\/_normalize.scss" : {
+    "\/dev\/scss\/base\/_normalize.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2153,13 +2153,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/base\/_normalize.css",
+      "oAP" : "\/dev\/scss\/base\/_normalize.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/base\/_typography.scss" : {
+    "\/dev\/scss\/base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2168,13 +2168,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/base\/_typography.css",
+      "oAP" : "\/dev\/scss\/base\/_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/components\/_buttons.scss" : {
+    "\/dev\/scss\/components\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2183,13 +2183,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/components\/_buttons.css",
+      "oAP" : "\/dev\/scss\/components\/_buttons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/components\/_forms.scss" : {
+    "\/dev\/scss\/components\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2198,13 +2198,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/components\/_forms.css",
+      "oAP" : "\/dev\/scss\/components\/_forms.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/components\/_navigation.scss" : {
+    "\/dev\/scss\/components\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2213,13 +2213,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/components\/_navigation.css",
+      "oAP" : "\/dev\/scss\/components\/_navigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/helpers\/_mixins.scss" : {
+    "\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2228,13 +2228,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/helpers\/_mixins.css",
+      "oAP" : "\/dev\/scss\/helpers\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/helpers\/_variables.scss" : {
+    "\/dev\/scss\/helpers\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2243,13 +2243,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/helpers\/_variables.css",
+      "oAP" : "\/dev\/scss\/helpers\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/layout\/_footer.scss" : {
+    "\/dev\/scss\/layout\/product\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2258,13 +2258,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/layout\/_footer.css",
+      "oAP" : "\/dev\/scss\/layout\/product\/_footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/layout\/_header.scss" : {
+    "\/dev\/scss\/layout\/product\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2273,13 +2273,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/layout\/_header.css",
+      "oAP" : "\/dev\/scss\/layout\/product\/_header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/sections\/_attachments.scss" : {
+    "\/dev\/scss\/sections\/product\/_attachments.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2288,13 +2288,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/sections\/_attachments.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_attachments.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/sections\/_hero-1.scss" : {
+    "\/dev\/scss\/sections\/product\/_hero-1.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2303,13 +2303,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/sections\/_hero-1.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_hero-1.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/sections\/_hero-2.scss" : {
+    "\/dev\/scss\/sections\/product\/_hero-2.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2318,13 +2318,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/sections\/_hero-2.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_hero-2.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/sections\/_info.scss" : {
+    "\/dev\/scss\/sections\/product\/_info.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2333,13 +2333,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/sections\/_info.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_info.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/sections\/_reviews.scss" : {
+    "\/dev\/scss\/sections\/product\/_reviews.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2348,13 +2348,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/product\/scss\/sections\/_reviews.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_reviews.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/product\/scss\/styles.scss" : {
+    "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
