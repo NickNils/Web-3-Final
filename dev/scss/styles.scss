@@ -18,9 +18,18 @@
 @import "layout/product/_header";
 @import "layout/product/_footer";
 
+@import "layout/checkout-thankyou/_header";
+@import "layout/checkout-thankyou/_footer";
+
+
 // Sections Styles
 @import "sections/product/_info";
 @import "sections/product/_hero-1";
 @import "sections/product/_attachments";
 @import "sections/product/_reviews";
 @import "sections/product/_hero-2";
+
+@import "sections/_checkout01.scss";
+@import "sections/_checkout02.scss";
+@import "sections/_checkout03.scss";
+@import "sections/_thankyou.scss";
