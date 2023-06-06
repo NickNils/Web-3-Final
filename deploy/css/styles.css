@@ -1319,16 +1319,30 @@ footer #footer-content #socials li {
 }
 @media (min-width: 1024px) {
   #bag {
-    grid-template-columns: 64px auto 64px;
+    padding: 148px 0px 0px;
+    grid-template-columns: auto 764px auto;
   }
 }
 #bag #bag-content {
   grid-area: content;
 }
+@media (min-width: 1024px) {
+  #bag #bag-content {
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-areas: "title title" "image text" "button button";
+  }
+}
 #bag #bag-content h2 {
   font-size: 1.25rem;
   color: var(--black);
   font-weight: 400;
+}
+@media (min-width: 1024px) {
+  #bag #bag-content h2 {
+    grid-area: title;
+    justify-self: center;
+  }
 }
 #bag #bag-content .details {
   display: flex;
@@ -1358,6 +1372,12 @@ footer #footer-content #socials li {
 #bag #bag-content #image {
   padding-top: 24px;
 }
+@media (min-width: 1024px) {
+  #bag #bag-content #image {
+    grid-area: image;
+    padding: 24px 24px 34px 0px;
+  }
+}
 #bag #bag-content #image #mobile-details {
   padding-bottom: 24px;
 }
@@ -1374,18 +1394,33 @@ footer #footer-content #socials li {
   border-radius: 8px;
   border: 1px solid var(--black);
 }
+@media (min-width: 1024px) {
+  #bag #bag-content #image #photo {
+    height: 448px;
+  }
+}
 #bag #bag-content #breakdown {
   display: flex;
   flex-direction: column;
   gap: 24px;
   padding: 24px 0px 34px;
 }
+@media (min-width: 1024px) {
+  #bag #bag-content #breakdown {
+    grid-area: text;
+  }
+}
+#bag #bag-content #breakdown .numbers {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--blue2);
+}
 #bag #bag-content #breakdown #desktop-details {
   display: none;
 }
 @media (min-width: 1024px) {
   #bag #bag-content #breakdown #desktop-details {
-    display: block;
+    display: flex;
   }
 }
 #bag #bag-content #breakdown #add-sub {
@@ -1425,9 +1460,6 @@ footer #footer-content #socials li {
   color: var(--grey1);
 }
 #bag #bag-content #breakdown #price-break p {
-  font-size: 1rem;
-  font-weight: 300;
-  color: var(--blue2);
   justify-self: end;
 }
 #bag #bag-content #breakdown #price-break #l1 {
@@ -1459,4 +1491,10 @@ footer #footer-content #socials li {
   height: 1px;
   grid-area: line;
   background-color: var(--grey2);
+}
+@media (min-width: 1024px) {
+  #bag #bag-content a {
+    justify-self: center;
+    grid-area: button;
+  }
 }

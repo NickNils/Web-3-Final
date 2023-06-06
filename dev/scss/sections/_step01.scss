@@ -15,16 +15,32 @@
     }
 
     @include lg{
-        grid-template-columns: 64px auto 64px;
+        padding: 148px 0px 0px;
+        grid-template-columns: auto 764px auto;
     }
 
     #bag-content{
         grid-area: content;
 
+        @include lg{
+            display: grid;
+            grid-template-columns: 60% auto;
+            grid-template-areas: 
+                            "title title"
+                            "image text"
+                            "button button";
+
+        }
+
         h2{
             font-size: rem-calc(20);
             color: var(--black);
             font-weight: 400;
+
+            @include lg{
+                grid-area: title;
+                justify-self: center;
+            }
         }
         
         .details{
@@ -57,6 +73,11 @@
         #image{
             padding-top: 24px;
 
+            @include lg{
+                grid-area: image;
+                padding: 24px 24px 34px 0px;
+            }
+
             #mobile-details{
                 padding-bottom: 24px;
                 @include lg{
@@ -71,6 +92,10 @@
                 width: 100%;
                 border-radius: 8px;
                 border: 1px solid var(--black);
+
+                @include lg{
+                    height: 448px;
+                }
             }
         }
         #breakdown{
@@ -79,11 +104,21 @@
             gap: 24px;
             padding:24px 0px 34px;
 
+            @include lg{
+                grid-area: text;
+            }
+
+            .numbers{
+                font-size: rem-calc(16);
+                font-weight: 300;
+                color: var(--blue2);
+            }
+            
             #desktop-details{
                 display: none;
 
                 @include lg{
-                    display: block;
+                    display: flex;
                 }
             }
 
@@ -109,7 +144,9 @@
                         font-size: rem-calc(16);
                         font-weight: 400;
                     }
+
                 }
+
             }
             #price-break{
                 display: grid;
@@ -130,9 +167,6 @@
                     color: var(--grey1);
                 }
                 p{
-                    font-size: rem-calc(16);
-                    font-weight: 300;
-                    color: var(--blue2);
                     justify-self: end;
                 }
                 #l1{
@@ -167,6 +201,13 @@
                     grid-area: line;
                     background-color: var(--grey2);
                 }
+            }
+        }
+
+        a{
+            @include lg{
+                justify-self: center;
+                grid-area: button;
             }
         }
     }
