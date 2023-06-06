@@ -1766,6 +1766,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/checkout01.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout01.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -2064,29 +2072,13 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/checkout01.kit" : {
+    "\/dev\/checkout01.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/content\/checkout01.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/checkout02.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/checkout02.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/checkout03.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/checkout03.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/checkout01.html",
+      "oF" : 2
     },
     "\/dev\/content\/product\/attachments.kit" : {
       "cB" : 0,
@@ -2128,12 +2120,44 @@
       "oAP" : "\/dev\/content\/product\/reviews.html",
       "oF" : 0
     },
+    "\/dev\/content\/step01.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/step01.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/step02.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/step02.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/step03.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/step03.html",
+      "oF" : 0
+    },
     "\/dev\/content\/thankyou" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/content\/thankyou",
+      "oF" : 0
+    },
+    "\/dev\/global\/checkheader.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/checkheader.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -2307,6 +2331,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/layout\/_checkheader.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/layout\/_checkheader.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/layout\/product\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2332,6 +2371,66 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/product\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_step01.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_step01.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_step02.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_step02.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_step03.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_step03.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_thankyou.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_thankyou.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

@@ -457,7 +457,7 @@ nav ul li a:link, nav ul li a:visited {
 /* =============
     Header
 ============= */
-header {
+#product-header {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". content .";
@@ -469,17 +469,17 @@ header {
   background-color: var(--white);
 }
 @media (min-width: 768px) {
-  header {
+  #product-header {
     grid-template-columns: 48px auto 48px;
   }
 }
 @media (min-width: 1024px) {
-  header {
+  #product-header {
     height: 86.8px;
     grid-template-columns: 64px auto 64px;
   }
 }
-header #header-content {
+#product-header #header-content {
   grid-area: content;
   display: grid;
   grid-template-columns: 50% auto;
@@ -488,22 +488,22 @@ header #header-content {
   color: var(--blue2);
 }
 @media (min-width: 1024px) {
-  header #header-content {
+  #product-header #header-content {
     grid-template-columns: 10% auto;
     grid-template-areas: "logo nav";
   }
 }
-header #header-content h1 {
+#product-header #header-content h1 {
   grid-area: logo;
   font-family: "Fugaz One", cursive;
 }
-header #header-content button {
+#product-header #header-content button {
   background-color: transparent;
   border: none;
   font-size: 1.25rem;
   color: var(--blue2);
 }
-header #header-content #cart-burger {
+#product-header #header-content #cart-burger {
   grid-area: burger;
   display: flex;
   flex-direction: row;
@@ -512,18 +512,18 @@ header #header-content #cart-burger {
   gap: 16px;
 }
 @media (min-width: 1024px) {
-  header #header-content #cart-burger {
+  #product-header #header-content #cart-burger {
     display: none;
   }
 }
-header #header-content nav {
+#product-header #header-content nav {
   grid-area: nav;
 }
-header #header-content nav ul #cart-desktop {
+#product-header #header-content nav ul #cart-desktop {
   display: none;
 }
 @media (min-width: 1024px) {
-  header #header-content nav ul #cart-desktop {
+  #product-header #header-content nav ul #cart-desktop {
     display: list-item;
   }
 }
@@ -603,6 +603,11 @@ footer #footer-content #socials {
 }
 footer #footer-content #socials li {
   font-size: 1.75rem;
+}
+
+#check-header {
+  margin: 24px 0px 24px;
+  color: var(--blue2);
 }
 
 /* =============
@@ -943,7 +948,6 @@ footer #footer-content #socials li {
 #attachments #content {
   justify-content: center;
   grid-area: content;
-  border: 1px solid red;
 }
 #attachments #content h1 {
   font-size: 2rem;
@@ -964,7 +968,6 @@ footer #footer-content #socials li {
   width: 100%;
 }
 #attachments #content ul li a:link, #attachments #content ul li a:visited {
-  border: 2px solid black;
   display: flex;
   justify-content: center;
   align-items: center;

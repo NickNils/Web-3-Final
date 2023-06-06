@@ -27,7 +27,7 @@
     #content{
         justify-content: center;
         grid-area: content;
-        border: 1px solid red;
+        // border: 1px solid red;
 
         h1{
             font-size: rem-calc(32);
@@ -50,7 +50,7 @@
                 }
 
                 a:link, a:visited{
-                    border: 2px solid black;
+                    // border: 2px solid black;
                     display: flex;
                     justify-content: center;
                     align-items: center;

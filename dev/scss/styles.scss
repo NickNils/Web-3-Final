@@ -18,6 +18,8 @@
 @import "layout/product/_header";
 @import "layout/product/_footer";
 
+@import "layout/_checkheader";
+
 
 // Sections Styles
 @import "sections/product/_info";
@@ -25,3 +27,8 @@
 @import "sections/product/_attachments";
 @import "sections/product/_reviews";
 @import "sections/product/_hero-2";
+
+@import "sections/_step01";
+@import "sections/_step02";
+@import "sections/_step03";
+@import "sections/_thankyou";
