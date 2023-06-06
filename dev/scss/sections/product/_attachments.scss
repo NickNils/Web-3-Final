@@ -9,6 +9,7 @@
     padding: 24px 0px 48px;
     margin-bottom: 32px;
     background-color: var(--yellow4);
+
     display: grid;
     grid-template-columns: 24px auto 24px;
     grid-template-areas: ". content .";
@@ -49,6 +50,18 @@
                     width: 100%;
                 }
 
+                @include lg{
+                    height: 60vh;
+                }
+
+                @include xl{
+                    height: 70vh;
+                }
+
+                @include xxl{
+                    height: 80vh;
+                }
+
                 a:link, a:visited{
                     // border: 2px solid black;
                     display: flex;
@@ -72,7 +85,7 @@
                     .icon{
                         @include lg{
                             transition: 0.25s;
-                            width: 85%;
+                            width: 80%;
                         }
                         position: relative;
                         z-index: 10;
@@ -119,7 +132,7 @@
                 }
 
                 .label{
-                   top:57%;
+                   top:62%;
                    z-index: 5;
                 }
             }

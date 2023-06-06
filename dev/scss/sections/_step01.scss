@@ -3,9 +3,11 @@
 ============= */
 
 #bag{
-    padding: 108px 0px 32px;
+    padding: 108px 0px 96px;
     display: grid;
     grid-template-columns: 24px auto 24px;
+    grid-template-rows: minmax();
+
     grid-template-areas: ". content .";
 
     @include md{
@@ -53,6 +55,15 @@
         }
 
         #image{
+            padding-top: 24px;
+
+            #mobile-details{
+                padding-bottom: 24px;
+                @include lg{
+                    display: none;
+                }
+            }
+
             #photo{
                 background-image: url("../img/checkout01/package.jpg");
                 background-size: cover;
@@ -60,6 +71,102 @@
                 width: 100%;
                 border-radius: 8px;
                 border: 1px solid var(--black);
+            }
+        }
+        #breakdown{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            padding:24px 0px 34px;
+
+            #desktop-details{
+                display: none;
+
+                @include lg{
+                    display: block;
+                }
+            }
+
+            #add-sub{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                aside{
+                    display: flex;
+                    border: 1px solid var(--blue2);
+                    border-radius: 8px;
+                    padding: 8px 16px;
+                    gap: 24px;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    i{
+                        color: var(--grey1);
+                        font-size: rem-calc(20px);
+                    }
+                    p{
+                        color: var(--black);
+                        font-size: rem-calc(16);
+                        font-weight: 400;
+                    }
+                }
+            }
+            #price-break{
+                display: grid;
+                grid-template-columns: 50% auto;
+                grid-template-areas:
+                                "l1 n1"
+                                "l2 n2"
+                                "l3 n3"
+                                "line line"
+                                "tl tn";
+
+                .price-element{
+                    padding-bottom: 8px;
+                }
+                h4{
+                    font-size: rem-calc(20);
+                    font-weight: 400;
+                    color: var(--grey1);
+                }
+                p{
+                    font-size: rem-calc(16);
+                    font-weight: 300;
+                    color: var(--blue2);
+                    justify-self: end;
+                }
+                #l1{
+                    grid-area: l1;
+                }
+                #l2{
+                    grid-area: l2;
+                }
+                #l3{
+                    grid-area: l3;
+                }
+                #tl{
+                    grid-area: tl;
+                }
+
+                #n1{
+                    grid-area: n1;
+                }
+                #n2{
+                    grid-area: n2;
+                }
+                #n3{
+                    grid-area: n3;
+                }
+                #tn{
+                    grid-area: tn;
+                }
+
+                #line{
+                    margin: 16px 0px 24px;
+                    height: 1px;
+                    grid-area: line;
+                    background-color: var(--grey2);
+                }
             }
         }
     }
