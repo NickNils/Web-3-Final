@@ -605,9 +605,37 @@ footer #footer-content #socials li {
   font-size: 1.75rem;
 }
 
+/* ===================
+    Checkout Header
+=================== */
 #check-header {
-  margin: 24px 0px 24px;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+  border-bottom: 2px solid var(--blue2);
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--white);
+}
+@media (min-width: 768px) {
+  #check-header {
+    grid-template-columns: 48px auto 48px;
+  }
+}
+@media (min-width: 1024px) {
+  #check-header {
+    height: 86.8px;
+    grid-template-columns: 64px auto 64px;
+  }
+}
+#check-header a:link, #check-header a:visited {
+  grid-area: content;
+  padding: 24px 0px;
+  text-decoration: none;
   color: var(--blue2);
+  font-family: "Fugaz One", cursive;
 }
 
 /* =============
@@ -1257,4 +1285,65 @@ footer #footer-content #socials li {
     justify-content: center;
     padding-right: 12%;
   }
+}
+
+/* =============
+    Step 1
+============= */
+#bag {
+  padding: 108px 0px 32px;
+  display: grid;
+  grid-template-columns: 24px auto 24px;
+  grid-template-areas: ". content .";
+}
+@media (min-width: 768px) {
+  #bag {
+    grid-template-columns: 48px auto 48px;
+  }
+}
+@media (min-width: 1024px) {
+  #bag {
+    grid-template-columns: 64px auto 64px;
+  }
+}
+#bag #bag-content {
+  grid-area: content;
+}
+#bag #bag-content h2 {
+  font-size: 1.25rem;
+  color: var(--black);
+  font-weight: 400;
+}
+#bag #bag-content .details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#bag #bag-content .details h1 {
+  font-family: "Fugaz One", cursive;
+  color: var(--black);
+  font-size: 2rem;
+}
+#bag #bag-content .details h3 {
+  font-size: 1.25rem;
+  color: var(--black);
+  font-weight: 400;
+}
+#bag #bag-content .details p {
+  font-size: 1rem;
+  color: var(--grey2);
+  font-weight: 400;
+}
+#bag #bag-content .details h4 {
+  font-size: 1rem;
+  color: var(--grey1);
+  font-weight: 300;
+}
+#bag #bag-content #image #photo {
+  background-image: url("../img/checkout01/package.jpg");
+  background-size: cover;
+  height: 342px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--black);
 }

@@ -1,0 +1,68 @@
+/* =============
+    Step 1
+============= */
+
+#bag{
+    padding: 108px 0px 32px;
+    display: grid;
+    grid-template-columns: 24px auto 24px;
+    grid-template-areas: ". content .";
+
+    @include md{
+        grid-template-columns: 48px auto 48px;
+    }
+
+    @include lg{
+        grid-template-columns: 64px auto 64px;
+    }
+
+    #bag-content{
+        grid-area: content;
+
+        h2{
+            font-size: rem-calc(20);
+            color: var(--black);
+            font-weight: 400;
+        }
+        
+        .details{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            h1{
+                font-family: 'Fugaz One', cursive;
+                color: var(--black);
+                font-size: rem-calc(32);
+
+            }
+            h3{
+                font-size: rem-calc(20);
+                color: var(--black);
+                font-weight: 400;
+            }
+            p{
+                font-size: rem-calc(16);
+                color: var(--grey2);
+                font-weight: 400;
+            }
+            h4{
+                font-size: rem-calc(16);
+                color: var(--grey1);
+                font-weight: 300;
+            }
+        }
+
+        #image{
+            #photo{
+                background-image: url("../img/checkout01/package.jpg");
+                background-size: cover;
+                height: 342px;
+                width: 100%;
+                border-radius: 8px;
+                border: 1px solid var(--black);
+            }
+        }
+    }
+
+
+}
