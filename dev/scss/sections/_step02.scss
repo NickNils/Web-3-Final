@@ -1,0 +1,123 @@
+#delivery{
+    padding: 108px 0px 96px;
+    display: grid;
+    grid-template-columns: 24px auto 24px;
+    grid-template-areas: ". content .";
+
+    @include sm{
+        grid-template-columns: auto 528px auto;
+    }
+
+    @include lg{
+        padding: 200px 0px 96px;
+        grid-template-columns: auto 700px auto;
+    }
+
+    #delivery-content{
+        grid-area: content;
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+
+        h2{
+            font-size: rem-calc(20);
+            font-weight: 400;
+            color: var(--black);
+
+            @include sm{
+                align-self: center;
+            }
+
+        }
+
+        #personal{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            form{
+                @include lg{
+                    grid-template-columns: 50% auto;
+                    grid-template-areas: 
+                                    "first last"
+                                    "phone address";
+                }
+                #i1{
+                    @include lg{
+                        grid-area: first;
+                    }
+                }
+                #i2{
+                    @include lg{
+                        grid-area: last;
+                    }
+                }
+                #i3{
+                    @include lg{
+                        grid-area: phone;
+                    }
+                }
+                #i4{
+                    @include lg{
+                        grid-area: address;
+                    }
+                }
+            }
+
+        }
+
+        #address{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            form{
+                @include sm{
+                    grid-template-columns: 50% auto;
+                    grid-template-areas:   
+                                    "e-address e-address"
+                                    "apartment apartment"
+                                    "country country"
+                                    "state city";
+                }
+
+                @include lg{
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-areas: 
+                                    "e-address e-address apartment"
+                                    "country state city";
+                }
+                #a1{
+                    @include sm{
+                        grid-area: e-address;
+                    }
+                }
+                #a2{
+                    @include sm{
+                        grid-area: apartment;
+                    }
+                }
+                #a3{
+                    @include sm{
+                        grid-area: country;
+                    }
+                }
+                #a4{
+                    @include sm{
+                        grid-area: state;
+                    }
+                }
+                #a5{
+                    @include sm{
+                        grid-area: city;
+                    }
+                }
+            }
+        }
+
+        #buttons{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: center;
+        }
+    }
+}

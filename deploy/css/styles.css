@@ -370,6 +370,44 @@ a:enabled {
   box-shadow: none;
 }
 
+a.back-btn:link, a.back-btn:visited {
+  color: var(--blue1);
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+input {
+  border: none;
+}
+
+.co-form {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 16px;
+}
+.co-form input[type=text] {
+  box-sizing: border-box;
+  padding: 8px 16px;
+  border: 1px solid var(--grey1);
+  border-radius: 8px;
+  color: var(--grey1);
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: transparent;
+  transition: 100ms;
+}
+.co-form input[type=text]:focus {
+  border: 1px solid var(--blue1);
+  outline: none;
+}
+.co-form input[type=text]::placeholder {
+  transition: color 250ms ease;
+}
+.co-form input[type=text]:focus::placeholder {
+  color: transparent;
+}
+
 /* =============
     Typography
 ============= */
@@ -1497,4 +1535,117 @@ footer #footer-content #socials li {
     justify-self: center;
     grid-area: button;
   }
+}
+
+#delivery {
+  padding: 108px 0px 96px;
+  display: grid;
+  grid-template-columns: 24px auto 24px;
+  grid-template-areas: ". content .";
+}
+@media (min-width: 576px) {
+  #delivery {
+    grid-template-columns: auto 528px auto;
+  }
+}
+@media (min-width: 1024px) {
+  #delivery {
+    padding: 200px 0px 96px;
+    grid-template-columns: auto 700px auto;
+  }
+}
+#delivery #delivery-content {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+#delivery #delivery-content h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--black);
+}
+@media (min-width: 576px) {
+  #delivery #delivery-content h2 {
+    align-self: center;
+  }
+}
+#delivery #delivery-content #personal {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (min-width: 1024px) {
+  #delivery #delivery-content #personal form {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "first last" "phone address";
+  }
+}
+@media (min-width: 1024px) {
+  #delivery #delivery-content #personal form #i1 {
+    grid-area: first;
+  }
+}
+@media (min-width: 1024px) {
+  #delivery #delivery-content #personal form #i2 {
+    grid-area: last;
+  }
+}
+@media (min-width: 1024px) {
+  #delivery #delivery-content #personal form #i3 {
+    grid-area: phone;
+  }
+}
+@media (min-width: 1024px) {
+  #delivery #delivery-content #personal form #i4 {
+    grid-area: address;
+  }
+}
+#delivery #delivery-content #address {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (min-width: 576px) {
+  #delivery #delivery-content #address form {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "e-address e-address" "apartment apartment" "country country" "state city";
+  }
+}
+@media (min-width: 1024px) {
+  #delivery #delivery-content #address form {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "e-address e-address apartment" "country state city";
+  }
+}
+@media (min-width: 576px) {
+  #delivery #delivery-content #address form #a1 {
+    grid-area: e-address;
+  }
+}
+@media (min-width: 576px) {
+  #delivery #delivery-content #address form #a2 {
+    grid-area: apartment;
+  }
+}
+@media (min-width: 576px) {
+  #delivery #delivery-content #address form #a3 {
+    grid-area: country;
+  }
+}
+@media (min-width: 576px) {
+  #delivery #delivery-content #address form #a4 {
+    grid-area: state;
+  }
+}
+@media (min-width: 576px) {
+  #delivery #delivery-content #address form #a5 {
+    grid-area: city;
+  }
+}
+#delivery #delivery-content #buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
 }

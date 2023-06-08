@@ -1774,6 +1774,14 @@
       "oAP" : "\/deploy\/checkout01.html",
       "oF" : 0
     },
+    "\/deploy\/checkout02.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout02.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -2080,6 +2088,14 @@
       "oAP" : "\/deploy\/checkout01.html",
       "oF" : 2
     },
+    "\/dev\/checkout02.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout02.html",
+      "oF" : 2
+    },
     "\/dev\/content\/product\/attachments.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2132,7 +2148,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/step02.html",
       "oF" : 0
     },

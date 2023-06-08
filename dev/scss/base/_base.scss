@@ -33,3 +33,45 @@ a.buy-now:hover, a.buy-now:active{
 a:enabled{
     box-shadow: none;
 }
+
+a.back-btn:link, a.back-btn:visited{
+    color: var(--blue1);
+    font-size: rem-calc(16);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+input{
+    border: none;
+}
+
+.co-form{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 16px;
+    input[type="text"]{
+
+        box-sizing: border-box;
+        padding: 8px 16px;
+        border: 1px solid var(--grey1);
+        border-radius: 8px;
+        color: var(--grey1);
+        font-size: rem-calc(16);
+        font-weight: 400;
+        background-color: transparent;
+        transition: 100ms;
+    }
+
+    input[type="text"]:focus{
+        border: 1px solid var(--blue1);
+        outline: none;
+    }
+    
+    input[type="text"]::placeholder{
+        transition: color 250ms ease;
+    }
+
+    input[type="text"]:focus::placeholder{
+        color: transparent;
+    }
+}
