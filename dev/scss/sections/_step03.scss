@@ -1,0 +1,91 @@
+#payment{
+    padding: 108px 0px 0px;
+    display: grid;
+    grid-template-columns: 24px auto 24px;
+    grid-template-areas: ". content .";
+
+    @include sm{
+        padding: 164px 0px 0px;
+        grid-template-columns: auto 528px auto;
+    }
+
+    @include lg{
+        padding: 224px 0px 96px;
+        grid-template-columns: auto 700px auto;
+
+    }
+    #payment-content{
+        grid-area: content;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+
+        h2{
+            font-size: rem-calc(20);
+            font-weight: 400;
+            color: var(--black);
+        }
+
+        #card-info{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                @include sm{
+                    align-items: center;
+                }
+            }
+
+            form{
+                @include sm{
+                    display: grid;
+                    grid-template-columns: 50% auto;
+                    grid-template-areas: 
+                                    "card card"
+                                    "name name"
+                                    "cvv date";
+                }
+
+                @include lg{
+                    grid-template-areas: 
+                                "card name"
+                                "cvv date";
+                }
+
+                #c1{
+                    @include sm{
+                        grid-area: card;
+                    }
+                }
+                #c2{
+                    @include sm{
+                        grid-area: name;
+                    }
+                }
+                #c3{
+                    @include sm{
+                        grid-area: cvv;
+                    }
+                }
+                #c4{
+                    @include sm{
+                        grid-area: date;
+                    }
+                }
+            }
+
+        }
+
+        #buttons{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: center;
+        }
+    }
+}

@@ -1558,7 +1558,7 @@ footer #footer-content #socials li {
   grid-area: content;
   display: flex;
   flex-direction: column;
-  gap: 36px;
+  gap: 48px;
 }
 #delivery #delivery-content h2 {
   font-size: 1.25rem;
@@ -1644,6 +1644,89 @@ footer #footer-content #socials li {
   }
 }
 #delivery #delivery-content #buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+#payment {
+  padding: 108px 0px 0px;
+  display: grid;
+  grid-template-columns: 24px auto 24px;
+  grid-template-areas: ". content .";
+}
+@media (min-width: 576px) {
+  #payment {
+    padding: 164px 0px 0px;
+    grid-template-columns: auto 528px auto;
+  }
+}
+@media (min-width: 1024px) {
+  #payment {
+    padding: 224px 0px 96px;
+    grid-template-columns: auto 700px auto;
+  }
+}
+#payment #payment-content {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+#payment #payment-content h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--black);
+}
+#payment #payment-content #card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#payment #payment-content #card-info div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+@media (min-width: 576px) {
+  #payment #payment-content #card-info div {
+    align-items: center;
+  }
+}
+@media (min-width: 576px) {
+  #payment #payment-content #card-info form {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "card card" "name name" "cvv date";
+  }
+}
+@media (min-width: 1024px) {
+  #payment #payment-content #card-info form {
+    grid-template-areas: "card name" "cvv date";
+  }
+}
+@media (min-width: 576px) {
+  #payment #payment-content #card-info form #c1 {
+    grid-area: card;
+  }
+}
+@media (min-width: 576px) {
+  #payment #payment-content #card-info form #c2 {
+    grid-area: name;
+  }
+}
+@media (min-width: 576px) {
+  #payment #payment-content #card-info form #c3 {
+    grid-area: cvv;
+  }
+}
+@media (min-width: 576px) {
+  #payment #payment-content #card-info form #c4 {
+    grid-area: date;
+  }
+}
+#payment #payment-content #buttons {
   display: flex;
   flex-direction: column;
   gap: 16px;
