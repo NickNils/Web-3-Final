@@ -4,6 +4,25 @@
 
 body{
     background-color: var(--white);
+
+    main{
+        position: relative;
+        z-index: 2;
+    }
+    #bgt{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+
+        @include md{
+            right: 24px;
+        }
+
+        @include lg{
+            right: 36px;
+        }
+    }
 }
 
 ul{

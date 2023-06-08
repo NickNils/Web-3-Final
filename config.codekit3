@@ -49,6 +49,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/Assets\/background-text.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/background-text.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/Assets\/Cart.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1980,6 +1990,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/product\/attachments\/difuser.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/product\/background\/background-text.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/product\/background\/background-text.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
