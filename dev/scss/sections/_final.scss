@@ -1,0 +1,43 @@
+#thankyou{
+    padding: 108px 0px 0px;
+    display: grid;
+    grid-template-columns: 24px auto 24px;
+    grid-template-areas: ". content .";
+
+    #thankyou-content{
+        grid-area: content;
+        @include lg{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #thankyou-info{
+            padding-top: 64px;
+            display: flex;
+            flex-direction: column;
+            gap: 196px;
+            align-items: center;
+            
+            #confirm{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+    
+                h1{
+                    font-family: 'Fugaz One', cursive;
+                    color: var(--blue2);
+                    font-size: rem-calc(44);
+                }
+                
+                p{
+                    font-size: rem-calc(16);
+                    font-weight: 400;
+                    color: var(--black);
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}

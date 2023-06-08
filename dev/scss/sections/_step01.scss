@@ -3,11 +3,9 @@
 ============= */
 
 #bag{
-    padding: 108px 0px 96px;
+    padding: 108px 0px 0px;
     display: grid;
     grid-template-columns: 24px auto 24px;
-    grid-template-rows: minmax();
-
     grid-template-areas: ". content .";
 
     @include sm{
@@ -15,202 +13,210 @@
     }
 
     @include lg{
-        padding: 148px 0px 0px;
         grid-template-columns: auto 764px auto;
     }
 
     #bag-content{
         grid-area: content;
-
         @include lg{
-            display: grid;
-            grid-template-columns: 60% auto;
-            grid-template-areas: 
-                            "title title"
-                            "image text"
-                            "button button";
-
-        }
-
-        h2{
-            font-size: rem-calc(20);
-            color: var(--black);
-            font-weight: 400;
-
-            @include lg{
-                grid-area: title;
-                justify-self: center;
-            }
-        }
-        
-        .details{
             display: flex;
             flex-direction: column;
-            gap: 8px;
-            h1{
-                font-family: 'Fugaz One', cursive;
-                color: var(--black);
-                font-size: rem-calc(32);
+        }
 
+        #bag-info{
+            @include lg{
+                display: grid;
+                grid-template-columns: 60% auto;
+                grid-template-areas: 
+                                "title title"
+                                "image text"
+                                "button button";
+    
             }
-            h3{
+    
+            h2{
                 font-size: rem-calc(20);
                 color: var(--black);
                 font-weight: 400;
-            }
-            p{
-                font-size: rem-calc(16);
-                color: var(--grey2);
-                font-weight: 400;
-            }
-            h4{
-                font-size: rem-calc(16);
-                color: var(--grey1);
-                font-weight: 300;
-            }
-        }
-
-        #image{
-            padding-top: 24px;
-
-            @include lg{
-                grid-area: image;
-                padding: 24px 24px 34px 0px;
-            }
-
-            #mobile-details{
-                padding-bottom: 24px;
+    
                 @include lg{
-                    display: none;
+                    grid-area: title;
+                    justify-self: center;
                 }
-            }
-
-            #photo{
-                background-image: url("../img/checkout01/package.jpg");
-                background-size: cover;
-                height: 342px;
-                width: 100%;
-                border-radius: 8px;
-                border: 1px solid var(--black);
-
-                @include lg{
-                    height: 448px;
-                }
-            }
-        }
-        #breakdown{
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
-            padding:24px 0px 34px;
-
-            @include lg{
-                grid-area: text;
-            }
-
-            .numbers{
-                font-size: rem-calc(16);
-                font-weight: 300;
-                color: var(--blue2);
             }
             
-            #desktop-details{
-                display: none;
-
-                @include lg{
-                    display: flex;
-                }
-            }
-
-            #add-sub{
+            .details{
                 display: flex;
-                justify-content: space-between;
-                align-items: center;
-                aside{
-                    display: flex;
-                    border: 1px solid var(--blue2);
-                    border-radius: 8px;
-                    padding: 8px 16px;
-                    gap: 24px;
-                    justify-content: flex-start;
-                    align-items: center;
-
-                    i{
-                        color: var(--grey1);
-                        font-size: rem-calc(20px);
-                    }
-                    p{
-                        color: var(--black);
-                        font-size: rem-calc(16);
-                        font-weight: 400;
-                    }
-
+                flex-direction: column;
+                gap: 8px;
+                h1{
+                    font-family: 'Fugaz One', cursive;
+                    color: var(--black);
+                    font-size: rem-calc(32);
+    
                 }
-
-            }
-            #price-break{
-                display: grid;
-                grid-template-columns: 50% auto;
-                grid-template-areas:
-                                "l1 n1"
-                                "l2 n2"
-                                "l3 n3"
-                                "line line"
-                                "tl tn";
-
-                .price-element{
-                    padding-bottom: 8px;
-                }
-                h4{
+                h3{
                     font-size: rem-calc(20);
+                    color: var(--black);
                     font-weight: 400;
-                    color: var(--grey1);
                 }
                 p{
-                    justify-self: end;
+                    font-size: rem-calc(16);
+                    color: var(--grey2);
+                    font-weight: 400;
                 }
-                #l1{
-                    grid-area: l1;
-                }
-                #l2{
-                    grid-area: l2;
-                }
-                #l3{
-                    grid-area: l3;
-                }
-                #tl{
-                    grid-area: tl;
-                }
-
-                #n1{
-                    grid-area: n1;
-                }
-                #n2{
-                    grid-area: n2;
-                }
-                #n3{
-                    grid-area: n3;
-                }
-                #tn{
-                    grid-area: tn;
-                }
-
-                #line{
-                    margin: 16px 0px 24px;
-                    height: 1px;
-                    grid-area: line;
-                    background-color: var(--grey2);
+                h4{
+                    font-size: rem-calc(16);
+                    color: var(--grey1);
+                    font-weight: 300;
                 }
             }
-        }
-
-        a{
-            @include lg{
-                justify-self: center;
-                grid-area: button;
+    
+            #image{
+                padding-top: 24px;
+    
+                @include lg{
+                    grid-area: image;
+                    padding: 24px 24px 34px 0px;
+                }
+    
+                #mobile-details{
+                    padding-bottom: 24px;
+                    @include lg{
+                        display: none;
+                    }
+                }
+    
+                #photo{
+                    background-image: url("../img/checkout/package.jpg");
+                    background-size: cover;
+                    height: 342px;
+                    width: 100%;
+                    border-radius: 8px;
+                    border: 1px solid var(--black);
+    
+                    @include lg{
+                        height: 448px;
+                    }
+                }
+            }
+            #breakdown{
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                padding:24px 0px 34px;
+    
+                @include lg{
+                    grid-area: text;
+                }
+    
+                .numbers{
+                    font-size: rem-calc(16);
+                    font-weight: 300;
+                    color: var(--blue2);
+                }
+                
+                #desktop-details{
+                    display: none;
+    
+                    @include lg{
+                        display: flex;
+                    }
+                }
+    
+                #add-sub{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    aside{
+                        display: flex;
+                        border: 1px solid var(--blue2);
+                        border-radius: 8px;
+                        padding: 8px 16px;
+                        gap: 24px;
+                        justify-content: flex-start;
+                        align-items: center;
+    
+                        i{
+                            color: var(--grey1);
+                            font-size: rem-calc(20px);
+                        }
+                        p{
+                            color: var(--black);
+                            font-size: rem-calc(16);
+                            font-weight: 400;
+                        }
+    
+                    }
+    
+                }
+                #price-break{
+                    display: grid;
+                    grid-template-columns: 50% auto;
+                    grid-template-areas:
+                                    "l1 n1"
+                                    "l2 n2"
+                                    "l3 n3"
+                                    "line line"
+                                    "tl tn";
+    
+                    .price-element{
+                        padding-bottom: 8px;
+                    }
+                    h4{
+                        font-size: rem-calc(20);
+                        font-weight: 400;
+                        color: var(--grey1);
+                    }
+                    p{
+                        justify-self: end;
+                    }
+                    #l1{
+                        grid-area: l1;
+                    }
+                    #l2{
+                        grid-area: l2;
+                    }
+                    #l3{
+                        grid-area: l3;
+                    }
+                    #tl{
+                        grid-area: tl;
+                    }
+    
+                    #n1{
+                        grid-area: n1;
+                    }
+                    #n2{
+                        grid-area: n2;
+                    }
+                    #n3{
+                        grid-area: n3;
+                    }
+                    #tn{
+                        grid-area: tn;
+                    }
+    
+                    #line{
+                        margin: 16px 0px 24px;
+                        height: 1px;
+                        grid-area: line;
+                        background-color: var(--grey2);
+                    }
+                }
+            }
+    
+            a{
+                @include lg{
+                    justify-self: center;
+                    grid-area: button;
+                }
             }
         }
     }
+
+
+
 
 
 }

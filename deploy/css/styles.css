@@ -408,6 +408,23 @@ input {
   color: transparent;
 }
 
+.breadcrumbs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 64px;
+}
+@media (min-width: 1024px) {
+  .breadcrumbs {
+    align-self: center;
+    width: 528px;
+  }
+}
+.breadcrumbs img {
+  width: 100%;
+}
+
 /* =============
     Typography
 ============= */
@@ -1344,10 +1361,9 @@ footer #footer-content #socials li {
     Step 1
 ============= */
 #bag {
-  padding: 108px 0px 96px;
+  padding: 108px 0px 0px;
   display: grid;
   grid-template-columns: 24px auto 24px;
-  grid-template-rows: minmax();
   grid-template-areas: ". content .";
 }
 @media (min-width: 576px) {
@@ -1357,7 +1373,6 @@ footer #footer-content #socials li {
 }
 @media (min-width: 1024px) {
   #bag {
-    padding: 148px 0px 0px;
     grid-template-columns: auto 764px auto;
   }
 }
@@ -1366,66 +1381,72 @@ footer #footer-content #socials li {
 }
 @media (min-width: 1024px) {
   #bag #bag-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1024px) {
+  #bag #bag-content #bag-info {
     display: grid;
     grid-template-columns: 60% auto;
     grid-template-areas: "title title" "image text" "button button";
   }
 }
-#bag #bag-content h2 {
+#bag #bag-content #bag-info h2 {
   font-size: 1.25rem;
   color: var(--black);
   font-weight: 400;
 }
 @media (min-width: 1024px) {
-  #bag #bag-content h2 {
+  #bag #bag-content #bag-info h2 {
     grid-area: title;
     justify-self: center;
   }
 }
-#bag #bag-content .details {
+#bag #bag-content #bag-info .details {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-#bag #bag-content .details h1 {
+#bag #bag-content #bag-info .details h1 {
   font-family: "Fugaz One", cursive;
   color: var(--black);
   font-size: 2rem;
 }
-#bag #bag-content .details h3 {
+#bag #bag-content #bag-info .details h3 {
   font-size: 1.25rem;
   color: var(--black);
   font-weight: 400;
 }
-#bag #bag-content .details p {
+#bag #bag-content #bag-info .details p {
   font-size: 1rem;
   color: var(--grey2);
   font-weight: 400;
 }
-#bag #bag-content .details h4 {
+#bag #bag-content #bag-info .details h4 {
   font-size: 1rem;
   color: var(--grey1);
   font-weight: 300;
 }
-#bag #bag-content #image {
+#bag #bag-content #bag-info #image {
   padding-top: 24px;
 }
 @media (min-width: 1024px) {
-  #bag #bag-content #image {
+  #bag #bag-content #bag-info #image {
     grid-area: image;
     padding: 24px 24px 34px 0px;
   }
 }
-#bag #bag-content #image #mobile-details {
+#bag #bag-content #bag-info #image #mobile-details {
   padding-bottom: 24px;
 }
 @media (min-width: 1024px) {
-  #bag #bag-content #image #mobile-details {
+  #bag #bag-content #bag-info #image #mobile-details {
     display: none;
   }
 }
-#bag #bag-content #image #photo {
-  background-image: url("../img/checkout01/package.jpg");
+#bag #bag-content #bag-info #image #photo {
+  background-image: url("../img/checkout/package.jpg");
   background-size: cover;
   height: 342px;
   width: 100%;
@@ -1433,40 +1454,40 @@ footer #footer-content #socials li {
   border: 1px solid var(--black);
 }
 @media (min-width: 1024px) {
-  #bag #bag-content #image #photo {
+  #bag #bag-content #bag-info #image #photo {
     height: 448px;
   }
 }
-#bag #bag-content #breakdown {
+#bag #bag-content #bag-info #breakdown {
   display: flex;
   flex-direction: column;
   gap: 24px;
   padding: 24px 0px 34px;
 }
 @media (min-width: 1024px) {
-  #bag #bag-content #breakdown {
+  #bag #bag-content #bag-info #breakdown {
     grid-area: text;
   }
 }
-#bag #bag-content #breakdown .numbers {
+#bag #bag-content #bag-info #breakdown .numbers {
   font-size: 1rem;
   font-weight: 300;
   color: var(--blue2);
 }
-#bag #bag-content #breakdown #desktop-details {
+#bag #bag-content #bag-info #breakdown #desktop-details {
   display: none;
 }
 @media (min-width: 1024px) {
-  #bag #bag-content #breakdown #desktop-details {
+  #bag #bag-content #bag-info #breakdown #desktop-details {
     display: flex;
   }
 }
-#bag #bag-content #breakdown #add-sub {
+#bag #bag-content #bag-info #breakdown #add-sub {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#bag #bag-content #breakdown #add-sub aside {
+#bag #bag-content #bag-info #breakdown #add-sub aside {
   display: flex;
   border: 1px solid var(--blue2);
   border-radius: 8px;
@@ -1475,63 +1496,63 @@ footer #footer-content #socials li {
   justify-content: flex-start;
   align-items: center;
 }
-#bag #bag-content #breakdown #add-sub aside i {
+#bag #bag-content #bag-info #breakdown #add-sub aside i {
   color: var(--grey1);
   font-size: 1.25rem;
 }
-#bag #bag-content #breakdown #add-sub aside p {
+#bag #bag-content #bag-info #breakdown #add-sub aside p {
   color: var(--black);
   font-size: 1rem;
   font-weight: 400;
 }
-#bag #bag-content #breakdown #price-break {
+#bag #bag-content #bag-info #breakdown #price-break {
   display: grid;
   grid-template-columns: 50% auto;
   grid-template-areas: "l1 n1" "l2 n2" "l3 n3" "line line" "tl tn";
 }
-#bag #bag-content #breakdown #price-break .price-element {
+#bag #bag-content #bag-info #breakdown #price-break .price-element {
   padding-bottom: 8px;
 }
-#bag #bag-content #breakdown #price-break h4 {
+#bag #bag-content #bag-info #breakdown #price-break h4 {
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--grey1);
 }
-#bag #bag-content #breakdown #price-break p {
+#bag #bag-content #bag-info #breakdown #price-break p {
   justify-self: end;
 }
-#bag #bag-content #breakdown #price-break #l1 {
+#bag #bag-content #bag-info #breakdown #price-break #l1 {
   grid-area: l1;
 }
-#bag #bag-content #breakdown #price-break #l2 {
+#bag #bag-content #bag-info #breakdown #price-break #l2 {
   grid-area: l2;
 }
-#bag #bag-content #breakdown #price-break #l3 {
+#bag #bag-content #bag-info #breakdown #price-break #l3 {
   grid-area: l3;
 }
-#bag #bag-content #breakdown #price-break #tl {
+#bag #bag-content #bag-info #breakdown #price-break #tl {
   grid-area: tl;
 }
-#bag #bag-content #breakdown #price-break #n1 {
+#bag #bag-content #bag-info #breakdown #price-break #n1 {
   grid-area: n1;
 }
-#bag #bag-content #breakdown #price-break #n2 {
+#bag #bag-content #bag-info #breakdown #price-break #n2 {
   grid-area: n2;
 }
-#bag #bag-content #breakdown #price-break #n3 {
+#bag #bag-content #bag-info #breakdown #price-break #n3 {
   grid-area: n3;
 }
-#bag #bag-content #breakdown #price-break #tn {
+#bag #bag-content #bag-info #breakdown #price-break #tn {
   grid-area: tn;
 }
-#bag #bag-content #breakdown #price-break #line {
+#bag #bag-content #bag-info #breakdown #price-break #line {
   margin: 16px 0px 24px;
   height: 1px;
   grid-area: line;
   background-color: var(--grey2);
 }
 @media (min-width: 1024px) {
-  #bag #bag-content a {
+  #bag #bag-content #bag-info a {
     justify-self: center;
     grid-area: button;
   }
@@ -1550,100 +1571,107 @@ footer #footer-content #socials li {
 }
 @media (min-width: 1024px) {
   #delivery {
-    padding: 200px 0px 96px;
     grid-template-columns: auto 700px auto;
   }
 }
 #delivery #delivery-content {
   grid-area: content;
+}
+@media (min-width: 1024px) {
+  #delivery #delivery-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#delivery #delivery-content #delivery-info {
   display: flex;
   flex-direction: column;
   gap: 48px;
 }
-#delivery #delivery-content h2 {
+#delivery #delivery-content #delivery-info h2 {
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--black);
 }
 @media (min-width: 576px) {
-  #delivery #delivery-content h2 {
+  #delivery #delivery-content #delivery-info h2 {
     align-self: center;
   }
 }
-#delivery #delivery-content #personal {
+#delivery #delivery-content #delivery-info #personal {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 @media (min-width: 1024px) {
-  #delivery #delivery-content #personal form {
+  #delivery #delivery-content #delivery-info #personal form {
     grid-template-columns: 50% auto;
     grid-template-areas: "first last" "phone address";
   }
 }
 @media (min-width: 1024px) {
-  #delivery #delivery-content #personal form #i1 {
+  #delivery #delivery-content #delivery-info #personal form #i1 {
     grid-area: first;
   }
 }
 @media (min-width: 1024px) {
-  #delivery #delivery-content #personal form #i2 {
+  #delivery #delivery-content #delivery-info #personal form #i2 {
     grid-area: last;
   }
 }
 @media (min-width: 1024px) {
-  #delivery #delivery-content #personal form #i3 {
+  #delivery #delivery-content #delivery-info #personal form #i3 {
     grid-area: phone;
   }
 }
 @media (min-width: 1024px) {
-  #delivery #delivery-content #personal form #i4 {
+  #delivery #delivery-content #delivery-info #personal form #i4 {
     grid-area: address;
   }
 }
-#delivery #delivery-content #address {
+#delivery #delivery-content #delivery-info #address {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 @media (min-width: 576px) {
-  #delivery #delivery-content #address form {
+  #delivery #delivery-content #delivery-info #address form {
     grid-template-columns: 50% auto;
     grid-template-areas: "e-address e-address" "apartment apartment" "country country" "state city";
   }
 }
 @media (min-width: 1024px) {
-  #delivery #delivery-content #address form {
+  #delivery #delivery-content #delivery-info #address form {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "e-address e-address apartment" "country state city";
   }
 }
 @media (min-width: 576px) {
-  #delivery #delivery-content #address form #a1 {
+  #delivery #delivery-content #delivery-info #address form #a1 {
     grid-area: e-address;
   }
 }
 @media (min-width: 576px) {
-  #delivery #delivery-content #address form #a2 {
+  #delivery #delivery-content #delivery-info #address form #a2 {
     grid-area: apartment;
   }
 }
 @media (min-width: 576px) {
-  #delivery #delivery-content #address form #a3 {
+  #delivery #delivery-content #delivery-info #address form #a3 {
     grid-area: country;
   }
 }
 @media (min-width: 576px) {
-  #delivery #delivery-content #address form #a4 {
+  #delivery #delivery-content #delivery-info #address form #a4 {
     grid-area: state;
   }
 }
 @media (min-width: 576px) {
-  #delivery #delivery-content #address form #a5 {
+  #delivery #delivery-content #delivery-info #address form #a5 {
     grid-area: city;
   }
 }
-#delivery #delivery-content #buttons {
+#delivery #delivery-content #delivery-info #buttons {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1658,77 +1686,123 @@ footer #footer-content #socials li {
 }
 @media (min-width: 576px) {
   #payment {
-    padding: 164px 0px 0px;
     grid-template-columns: auto 528px auto;
   }
 }
 @media (min-width: 1024px) {
   #payment {
-    padding: 224px 0px 96px;
     grid-template-columns: auto 700px auto;
   }
 }
 #payment #payment-content {
   grid-area: content;
+}
+@media (min-width: 1024px) {
+  #payment #payment-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#payment #payment-content #payment-info {
   display: flex;
   flex-direction: column;
   gap: 48px;
 }
-#payment #payment-content h2 {
+#payment #payment-content #payment-info h2 {
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--black);
 }
-#payment #payment-content #card-info {
+#payment #payment-content #payment-info #card-info {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-#payment #payment-content #card-info div {
+#payment #payment-content #payment-info #card-info div {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 @media (min-width: 576px) {
-  #payment #payment-content #card-info div {
+  #payment #payment-content #payment-info #card-info div {
     align-items: center;
   }
 }
 @media (min-width: 576px) {
-  #payment #payment-content #card-info form {
+  #payment #payment-content #payment-info #card-info form {
     display: grid;
     grid-template-columns: 50% auto;
     grid-template-areas: "card card" "name name" "cvv date";
   }
 }
 @media (min-width: 1024px) {
-  #payment #payment-content #card-info form {
+  #payment #payment-content #payment-info #card-info form {
     grid-template-areas: "card name" "cvv date";
   }
 }
 @media (min-width: 576px) {
-  #payment #payment-content #card-info form #c1 {
+  #payment #payment-content #payment-info #card-info form #c1 {
     grid-area: card;
   }
 }
 @media (min-width: 576px) {
-  #payment #payment-content #card-info form #c2 {
+  #payment #payment-content #payment-info #card-info form #c2 {
     grid-area: name;
   }
 }
 @media (min-width: 576px) {
-  #payment #payment-content #card-info form #c3 {
+  #payment #payment-content #payment-info #card-info form #c3 {
     grid-area: cvv;
   }
 }
 @media (min-width: 576px) {
-  #payment #payment-content #card-info form #c4 {
+  #payment #payment-content #payment-info #card-info form #c4 {
     grid-area: date;
   }
 }
-#payment #payment-content #buttons {
+#payment #payment-content #payment-info #buttons {
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: center;
+}
+
+#thankyou {
+  padding: 108px 0px 0px;
+  display: grid;
+  grid-template-columns: 24px auto 24px;
+  grid-template-areas: ". content .";
+}
+#thankyou #thankyou-content {
+  grid-area: content;
+}
+@media (min-width: 1024px) {
+  #thankyou #thankyou-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#thankyou #thankyou-content #thankyou-info {
+  padding-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 196px;
+  align-items: center;
+}
+#thankyou #thankyou-content #thankyou-info #confirm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+#thankyou #thankyou-content #thankyou-info #confirm h1 {
+  font-family: "Fugaz One", cursive;
+  color: var(--blue2);
+  font-size: 2.75rem;
+}
+#thankyou #thankyou-content #thankyou-info #confirm p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--black);
+  text-align: center;
 }

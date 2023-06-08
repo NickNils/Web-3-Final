@@ -75,3 +75,20 @@ input{
         color: transparent;
     }
 }
+
+.breadcrumbs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 64px;
+
+    @include lg{
+        align-self: center;
+        width: 528px;
+    }
+
+    img{
+        width: 100%;
+    }
+}

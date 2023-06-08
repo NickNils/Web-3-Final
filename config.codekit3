@@ -69,6 +69,36 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/Assets\/checkout01-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/checkout01-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/checkout02-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/checkout02-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/checkout03-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/checkout03-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/Assets\/concentrator-sideways.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1766,6 +1796,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/Assets\/thankyou-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/thankyou-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/checkout01.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1802,18 +1842,58 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/checkout01\/package.jpg" : {
+    "\/deploy\/img\/checkout\/checkout01-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/checkout\/checkout01-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/checkout\/checkout02-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/checkout\/checkout02-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/checkout\/checkout03-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/checkout\/checkout03-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/checkout\/package.jpg" : {
       "ft" : 16384,
       "iS" : 91459,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/checkout01\/package.jpg",
+      "oAP" : "\/deploy\/img\/checkout\/package.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/checkout\/thankyou-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/checkout\/thankyou-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/product\/attachments\/airwave-sideways.svg" : {
       "ft" : 2097152,
@@ -2088,6 +2168,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/thankyou.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 0
+    },
     "\/dev\/checkout01.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2111,6 +2199,14 @@
       "oA" : 0,
       "oAP" : "\/deploy\/checkout03.html",
       "oF" : 2
+    },
+    "\/dev\/content\/final.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/final.html",
+      "oF" : 0
     },
     "\/dev\/content\/product\/attachments.kit" : {
       "cB" : 0,
@@ -2174,14 +2270,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/step03.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/thankyou" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/thankyou",
       "oF" : 0
     },
     "\/dev\/global\/checkheader.kit" : {
@@ -2408,6 +2496,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_final.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_final.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_step01.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2448,21 +2551,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_step03.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_thankyou.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_thankyou.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -2557,6 +2645,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/thankyou.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 2
     }
   },
   "hooks" : [
