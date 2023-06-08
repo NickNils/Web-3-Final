@@ -10,8 +10,8 @@
 
     grid-template-areas: ". content .";
 
-    @include md{
-        grid-template-columns: 48px auto 48px;
+    @include sm{
+        grid-template-columns: auto 500px auto;
     }
 
     @include lg{

@@ -1312,9 +1312,9 @@ footer #footer-content #socials li {
   grid-template-rows: minmax();
   grid-template-areas: ". content .";
 }
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   #bag {
-    grid-template-columns: 48px auto 48px;
+    grid-template-columns: auto 500px auto;
   }
 }
 @media (min-width: 1024px) {
