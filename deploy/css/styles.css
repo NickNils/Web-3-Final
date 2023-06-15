@@ -1388,7 +1388,7 @@ footer #footer-content #socials li {
     Step 1
 ============= */
 #bag {
-  padding: 108px 0px 0px;
+  padding: 108px 0px 96px;
   display: grid;
   grid-template-columns: 24px auto 24px;
   grid-template-areas: ". content .";
@@ -1400,6 +1400,7 @@ footer #footer-content #socials li {
 }
 @media (min-width: 1024px) {
   #bag {
+    padding: 108px 0px 96px;
     grid-template-columns: auto 764px auto;
   }
 }
@@ -1799,6 +1800,11 @@ footer #footer-content #socials li {
   display: grid;
   grid-template-columns: 24px auto 24px;
   grid-template-areas: ". content .";
+}
+@media (min-width: 576px) {
+  #thankyou {
+    grid-template-columns: auto 528px auto;
+  }
 }
 #thankyou #thankyou-content {
   grid-area: content;

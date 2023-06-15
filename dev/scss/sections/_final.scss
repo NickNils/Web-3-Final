@@ -4,6 +4,10 @@
     grid-template-columns: 24px auto 24px;
     grid-template-areas: ". content .";
 
+    @include sm{
+        grid-template-columns: auto 528px auto;
+    }
+
     #thankyou-content{
         grid-area: content;
         @include lg{

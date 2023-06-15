@@ -3,7 +3,7 @@
 ============= */
 
 #bag{
-    padding: 108px 0px 0px;
+    padding: 108px 0px 96px;
     display: grid;
     grid-template-columns: 24px auto 24px;
     grid-template-areas: ". content .";
@@ -13,6 +13,7 @@
     }
 
     @include lg{
+        padding: 108px 0px 96px;
         grid-template-columns: auto 764px auto;
     }
 
